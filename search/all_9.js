@@ -9,5 +9,6 @@ var searchData=
   ['hasaccess',['hasAccess',['../class_app_1_1_models_1_1_user.html#a2cc7c31a0b473e9bb23c2d17d0083695',1,'App::Models::User']]],
   ['hasusers',['hasUsers',['../class_app_1_1_models_1_1_accessory.html#afc386a57c9dbe61e383bd741b3a25fb5',1,'App\Models\Accessory\hasUsers()'],['../class_app_1_1_models_1_1_consumable.html#a106ade2a8fdc1011aa6d39929d771de8',1,'App\Models\Consumable\hasUsers()']]],
   ['helper',['Helper',['../class_app_1_1_helpers_1_1_helper.html',1,'App::Helpers']]],
-  ['helper_2ephp',['Helper.php',['../_helper_8php.html',1,'']]]
+  ['helper_2ephp',['Helper.php',['../_helper_8php.html',1,'']]],
+  ['kernel_2ephp',['Kernel.php',['../_http_2_kernel_8php.html',1,'']]]
 ];

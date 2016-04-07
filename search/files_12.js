@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['verifycsrftoken_2ephp',['VerifyCsrfToken.php',['../_verify_csrf_token_8php.html',1,'']]],
-  ['versioning_2ephp',['Versioning.php',['../_versioning_8php.html',1,'']]],
-  ['viewassetscontroller_2ephp',['ViewAssetsController.php',['../_view_assets_controller_8php.html',1,'']]]
+  ['xssprotectheader_2ephp',['XssProtectHeader.php',['../_xss_protect_header_8php.html',1,'']]]
 ];
