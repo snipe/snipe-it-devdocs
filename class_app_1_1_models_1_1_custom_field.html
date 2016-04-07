@@ -1,0 +1,489 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>App\Models\CustomField Class Reference</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="essentials.css" rel="stylesheet" type="text/css"/>
+<link href="layout.css" rel="stylesheet" type="text/css"/>
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="blue.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header" class="sticky clearfix header-sm shadow-after-3">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Logo -->
+                    <span class="logo pull-left">
+                    <div>
+                        <h3 style="margin-bottom: -25px;"><i class="fa fa-laptop" style="color: #179BD7"></i> <a href="/index.html">Snipe-IT</a></h3>
+                        <br>Open Source Asset Management
+                    </div>
+                    </span>
+                    <!--
+                        Top Nav
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+                        <nav class="nav-main">
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li>
+                                    <a href="https://snipeitapp.com/features"> FEATURES </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/demo"> DEMO </a>
+                                </li>
+                                <li>
+                                    <a href="/download"> DOWNLOAD </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="http://docs.snipeitapp.com"> DOCUMENTATION </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/hosting"> HOSTED SOLUTION </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#"> NEWS </a>
+                                </li> -->
+                                <li>
+                                    <a href="https://snipeitapp.com/support"> SUPPORT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- /Top Nav -->
+        </div>
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" id="top" style="padding-top: 30px;">
+                        <div style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Intro</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_models.html">Models</a></li><li class="navelem"><a class="el" href="class_app_1_1_models_1_1_custom_field.html">CustomField</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="class_app_1_1_models_1_1_custom_field-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">App\Models\CustomField Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for App\Models\CustomField:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_app_1_1_models_1_1_custom_field.png" usemap="#App_5CModels_5CCustomField_map" alt=""/>
+  <map id="App_5CModels_5CCustomField_map" name="App\Models\CustomField_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a07df321aba2c3140c3267543040ee1b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a07df321aba2c3140c3267543040ee1b3">fieldset</a> ()</td></tr>
+<tr class="separator:a07df321aba2c3140c3267543040ee1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa051b30c5e07d586aa04f1aff496511"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#aaa051b30c5e07d586aa04f1aff496511">user</a> ()</td></tr>
+<tr class="separator:aaa051b30c5e07d586aa04f1aff496511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9366d9f5d9d1fa7cfaf04dba7e564a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#ad9366d9f5d9d1fa7cfaf04dba7e564a3">check_format</a> ($value)</td></tr>
+<tr class="separator:ad9366d9f5d9d1fa7cfaf04dba7e564a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef4e49e4ecdad3e1af2da4f95fff585b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#aef4e49e4ecdad3e1af2da4f95fff585b">db_column_name</a> ()</td></tr>
+<tr class="separator:aef4e49e4ecdad3e1af2da4f95fff585b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fdbdcdfd00e69cb994a8a159cbcd888"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a4fdbdcdfd00e69cb994a8a159cbcd888">getFormatAttribute</a> ($value)</td></tr>
+<tr class="separator:a4fdbdcdfd00e69cb994a8a159cbcd888"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6290a501e66db9a2962cea5066207f39"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a6290a501e66db9a2962cea5066207f39">setFormatAttribute</a> ($value)</td></tr>
+<tr class="separator:a6290a501e66db9a2962cea5066207f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a2329d249753ba3c01779765c49179f9d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a2329d249753ba3c01779765c49179f9d">name_to_db_name</a> ($name)</td></tr>
+<tr class="separator:a2329d249753ba3c01779765c49179f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ca7413a80542c05d4896411804e7ff2"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a8ca7413a80542c05d4896411804e7ff2">boot</a> ()</td></tr>
+<tr class="separator:a8ca7413a80542c05d4896411804e7ff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a8da98afe8b435d444b84b65e77483535"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a8da98afe8b435d444b84b65e77483535">$guarded</a> =[&quot;id&quot;]</td></tr>
+<tr class="separator:a8da98afe8b435d444b84b65e77483535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fbf51330f4e1113d2a43cd6126ff0c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a0fbf51330f4e1113d2a43cd6126ff0c5">$rules</a></td></tr>
+<tr class="separator:a0fbf51330f4e1113d2a43cd6126ff0c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a5b299fb4bd07bfeca4756985e26e8983"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a5b299fb4bd07bfeca4756985e26e8983">$PredefinedFormats</a></td></tr>
+<tr class="separator:a5b299fb4bd07bfeca4756985e26e8983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a017e19029a68424970ba55631181529a"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a017e19029a68424970ba55631181529a">ALPHA</a></td></tr>
+<tr class="separator:a017e19029a68424970ba55631181529a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7882245ec1ce3941fee60460c9096435"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_custom_field.html#a7882245ec1ce3941fee60460c9096435">$table_name</a> =&quot;assets&quot;</td></tr>
+<tr class="separator:a7882245ec1ce3941fee60460c9096435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00006">6</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a8ca7413a80542c05d4896411804e7ff2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static App\Models\CustomField::boot </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00035">35</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        self::creating(<span class="keyword">function</span> ($custom_field) {</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">if</span> (in_array($custom_field-&gt;db_column_name(), \Schema::getColumnListing(\DB::getTablePrefix().<a class="code" href="class_app_1_1_models_1_1_custom_field.html#a7882245ec1ce3941fee60460c9096435">CustomField::$table_name</a>))) {</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;              <span class="comment">//field already exists when making a new custom field; fail.</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            \Schema::table(\DB::getTablePrefix().\<a class="code" href="namespace_app.html">App</a>\Models\<a class="code" href="class_app_1_1_models_1_1_custom_field.html#a7882245ec1ce3941fee60460c9096435">CustomField::$table_name</a>, <span class="keyword">function</span> ($table) use ($custom_field) {</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                $table-&gt;text($custom_field-&gt;db_column_name())-&gt;nullable();</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            });</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        });</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        self::updating(<span class="keyword">function</span> ($custom_field) {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordflow">if</span> ($custom_field-&gt;isDirty(<span class="stringliteral">&quot;name&quot;</span>)) {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                <span class="keywordflow">if</span> (in_array($custom_field-&gt;db_column_name(), \Schema::getColumnListing(CustomField::$table_name))) {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                  <span class="comment">//field already exists when renaming a custom field</span></div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                return \DB::statement(<span class="stringliteral">&quot;UPDATE &quot;</span>.CustomField::$table_name.<span class="stringliteral">&quot; RENAME &quot;</span>.self::name_to_db_name($custom_field-&gt;get_original(<span class="stringliteral">&quot;name&quot;</span>)).<span class="stringliteral">&quot; TO &quot;</span>.$custom_field-&gt;db_column_name());</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            }</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        });</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        self::deleting(<span class="keyword">function</span> ($custom_field) {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            return \DB::statement(<span class="stringliteral">&quot;ALTER TABLE &quot;</span>.CustomField::$table_name.<span class="stringliteral">&quot; DROP COLUMN &quot;</span>.$custom_field-&gt;db_column_name());</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        });</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div><div class="ttc" id="namespace_app_html"><div class="ttname"><a href="namespace_app.html">App</a></div></div>
+<div class="ttc" id="class_app_1_1_models_1_1_custom_field_html_a7882245ec1ce3941fee60460c9096435"><div class="ttname"><a href="class_app_1_1_models_1_1_custom_field.html#a7882245ec1ce3941fee60460c9096435">App\Models\CustomField\$table_name</a></div><div class="ttdeci">static $table_name</div><div class="ttdef"><b>Definition:</b> <a href="_custom_field_8php_source.html#l00028">CustomField.php:28</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad9366d9f5d9d1fa7cfaf04dba7e564a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::check_format </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00083">83</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">return</span> preg_match(<span class="stringliteral">&#39;/^&#39;</span>.$this-&gt;attributes[<span class="stringliteral">&#39;format&#39;</span>].<span class="stringliteral">&#39;$/&#39;</span>, $value)===1;</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aef4e49e4ecdad3e1af2da4f95fff585b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::db_column_name </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00088">88</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> self::name_to_db_name($this-&gt;name);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a07df321aba2c3140c3267543040ee1b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::fieldset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00066">66</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    {</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsToMany(<span class="stringliteral">&#39;\App\Models\CustomFieldset&#39;</span>); <span class="comment">//?!?!?!?!?!?</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4fdbdcdfd00e69cb994a8a159cbcd888"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::getFormatAttribute </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00094">94</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    {</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">foreach</span> (self::$PredefinedFormats as $name =&gt; $pattern) {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="keywordflow">if</span> ($pattern===$value) {</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="keywordflow">return</span> $name;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            }</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">return</span> $value;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2329d249753ba3c01779765c49179f9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static App\Models\CustomField::name_to_db_name </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00030">30</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    {</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;_snipeit_&quot;</span>.preg_replace(<span class="stringliteral">&quot;/[^a-zA-Z0-9]/&quot;</span>, <span class="stringliteral">&quot;_&quot;</span>, strtolower($name));</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6290a501e66db9a2962cea5066207f39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::setFormatAttribute </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00104">104</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">if</span> (isset(self::$PredefinedFormats[$value])) {</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            $this-&gt;attributes[<span class="stringliteral">&#39;format&#39;</span>]=self::$PredefinedFormats[$value];</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            $this-&gt;attributes[<span class="stringliteral">&#39;format&#39;</span>]=$value;</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        }</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaa051b30c5e07d586aa04f1aff496511"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::user </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00071">71</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\User&#39;</span>);</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a8da98afe8b435d444b84b65e77483535"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::$guarded =[&quot;id&quot;]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00008">8</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5b299fb4bd07bfeca4756985e26e8983"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::$PredefinedFormats</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=[</div><div class="line">    <span class="stringliteral">&quot;ANY&quot;</span> =&gt; <span class="stringliteral">&quot;&quot;</span></div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00013">13</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0fbf51330f4e1113d2a43cd6126ff0c5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::$rules</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=[</div><div class="line">    <span class="stringliteral">&quot;name&quot;</span> =&gt; <span class="stringliteral">&quot;required|unique:custom_fields&quot;</span></div><div class="line">    ]</div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00024">24</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7882245ec1ce3941fee60460c9096435"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::$table_name =&quot;assets&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00028">28</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a017e19029a68424970ba55631181529a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\CustomField::ALPHA</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">=&gt; <span class="stringliteral">&quot;alpha&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;EMAIL&quot;</span> =&gt; <span class="stringliteral">&quot;email&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;DATE&quot;</span> =&gt; <span class="stringliteral">&quot;date&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;URL&quot;</span> =&gt; <span class="stringliteral">&quot;url&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;NUMERIC&quot;</span> =&gt; <span class="stringliteral">&quot;numeric&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;MAC&quot;</span> =&gt; <span class="stringliteral">&quot;regex:/^[a-fA-F0-9]{2}:[a-fA-F0-9]{2}:[a-fA-F0-9]{2}:[a-fA-F0-9]{2}:[a-fA-F0-9]{2}:[a-fA-F0-9]{2}$/&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;IP&quot;</span> =&gt; <span class="stringliteral">&quot;ip&quot;</span></div><div class="line">    ]</div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="_custom_field_8php_source.html#l00015">15</a> of file <a class="el" href="_custom_field_8php_source.html">CustomField.php</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>snipe-it/app/Models/<a class="el" href="_custom_field_8php_source.html">CustomField.php</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+<hr class="footer"/>
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <a target="_blank" class="btn btn-default btn-xs" href="http://docs.snipeitapp.com/">Installation Documentation</a>
+    <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/">Report a Bug</a>
+  </div>
+  <a target="_blank" href="http://snipeitapp.com">Snipe IT</a> is an open source
+  project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeyhead">@snipeyhead</a>.
+  <hr class="footer"/>
+  <div class="center">
+      This documentation generated by <a href="http://www.doxygen.org/index.html">
+      <img class="footer" src="doxygen.png" alt="doxygen" style="max-height: 17px;" />
+      </a> 1.8.11
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>

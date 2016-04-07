@@ -1,0 +1,434 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>App\Models\Statuslabel Class Reference</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="essentials.css" rel="stylesheet" type="text/css"/>
+<link href="layout.css" rel="stylesheet" type="text/css"/>
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="blue.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header" class="sticky clearfix header-sm shadow-after-3">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Logo -->
+                    <span class="logo pull-left">
+                    <div>
+                        <h3 style="margin-bottom: -25px;"><i class="fa fa-laptop" style="color: #179BD7"></i> <a href="/index.html">Snipe-IT</a></h3>
+                        <br>Open Source Asset Management
+                    </div>
+                    </span>
+                    <!--
+                        Top Nav
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+                        <nav class="nav-main">
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li>
+                                    <a href="https://snipeitapp.com/features"> FEATURES </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/demo"> DEMO </a>
+                                </li>
+                                <li>
+                                    <a href="/download"> DOWNLOAD </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="http://docs.snipeitapp.com"> DOCUMENTATION </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/hosting"> HOSTED SOLUTION </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#"> NEWS </a>
+                                </li> -->
+                                <li>
+                                    <a href="https://snipeitapp.com/support"> SUPPORT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- /Top Nav -->
+        </div>
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" id="top" style="padding-top: 30px;">
+                        <div style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Intro</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_models.html">Models</a></li><li class="navelem"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html">Statuslabel</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="class_app_1_1_models_1_1_statuslabel-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">App\Models\Statuslabel Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for App\Models\Statuslabel:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_app_1_1_models_1_1_statuslabel.png" usemap="#App_5CModels_5CStatuslabel_map" alt=""/>
+  <map id="App_5CModels_5CStatuslabel_map" name="App\Models\Statuslabel_map">
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aa2d382c3a0a324bc90d584dcb4657198"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html#aa2d382c3a0a324bc90d584dcb4657198">has_assets</a> ()</td></tr>
+<tr class="separator:aa2d382c3a0a324bc90d584dcb4657198"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac07f8a820aa6164f607db874c93da400"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html#ac07f8a820aa6164f607db874c93da400">getStatuslabelType</a> ()</td></tr>
+<tr class="separator:ac07f8a820aa6164f607db874c93da400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e91d83ec85861253cbdd3120abe8167"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html#a9e91d83ec85861253cbdd3120abe8167">scopeTextSearch</a> ($query, $search)</td></tr>
+<tr class="memdesc:a9e91d83ec85861253cbdd3120abe8167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query builder scope to search on text.  <a href="#a9e91d83ec85861253cbdd3120abe8167">More...</a><br /></td></tr>
+<tr class="separator:a9e91d83ec85861253cbdd3120abe8167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aea71130f19328944f77badd25e534374"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html#aea71130f19328944f77badd25e534374">getStatuslabelTypesForDB</a> ($type)</td></tr>
+<tr class="separator:aea71130f19328944f77badd25e534374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a8efd6edd747e1137ab8b8bbacdc2b76c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html#a8efd6edd747e1137ab8b8bbacdc2b76c">$injectUniqueIdentifier</a> = true</td></tr>
+<tr class="separator:a8efd6edd747e1137ab8b8bbacdc2b76c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a3bf67eab1d0c968928f431a6bfda14"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html#a5a3bf67eab1d0c968928f431a6bfda14">$dates</a> = ['deleted_at']</td></tr>
+<tr class="separator:a5a3bf67eab1d0c968928f431a6bfda14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab364911b051414bc634e922c1a76e213"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html#ab364911b051414bc634e922c1a76e213">$table</a> = 'status_labels'</td></tr>
+<tr class="separator:ab364911b051414bc634e922c1a76e213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbdf5fc39415242cb803586e3d6b4c24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html#abbdf5fc39415242cb803586e3d6b4c24">$rules</a></td></tr>
+<tr class="separator:abbdf5fc39415242cb803586e3d6b4c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2286bfebbc5472d855d40dabbe40b1bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_statuslabel.html#a2286bfebbc5472d855d40dabbe40b1bb">$fillable</a> = ['name']</td></tr>
+<tr class="separator:a2286bfebbc5472d855d40dabbe40b1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00008">8</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="ac07f8a820aa6164f607db874c93da400"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Statuslabel::getStatuslabelType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00031">31</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;pending == 1) {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&#39;pending&#39;</span>;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        } elseif ($this-&gt;archived == 1) {</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&#39;archived&#39;</span>;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        } elseif (($this-&gt;archived == 0) &amp;&amp; ($this-&gt;deployable == 0) &amp;&amp; ($this-&gt;deployable == 0)) {</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&#39;undeployable&#39;</span>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&#39;deployable&#39;</span>;</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aea71130f19328944f77badd25e534374"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static App\Models\Statuslabel::getStatuslabelTypesForDB </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00045">45</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span> ($type == <span class="stringliteral">&#39;pending&#39;</span>) {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            $statustype[<span class="stringliteral">&#39;pending&#39;</span>] = 1;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            $statustype[<span class="stringliteral">&#39;deployable&#39;</span>] = 0;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            $statustype[<span class="stringliteral">&#39;archived&#39;</span>] = 0;</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        } elseif ($type == <span class="stringliteral">&#39;deployable&#39;</span>) {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            $statustype[<span class="stringliteral">&#39;pending&#39;</span>] = 0;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            $statustype[<span class="stringliteral">&#39;deployable&#39;</span>] = 1;</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            $statustype[<span class="stringliteral">&#39;archived&#39;</span>] = 0;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        } elseif ($type == <span class="stringliteral">&#39;archived&#39;</span>) {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            $statustype[<span class="stringliteral">&#39;pending&#39;</span>] = 0;</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            $statustype[<span class="stringliteral">&#39;deployable&#39;</span>] = 0;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            $statustype[<span class="stringliteral">&#39;archived&#39;</span>] = 1;</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        } elseif ($type == <span class="stringliteral">&#39;undeployable&#39;</span>) {</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            $statustype[<span class="stringliteral">&#39;pending&#39;</span>] = 0;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            $statustype[<span class="stringliteral">&#39;deployable&#39;</span>] = 0;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            $statustype[<span class="stringliteral">&#39;archived&#39;</span>] = 0;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">return</span> $statustype;</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa2d382c3a0a324bc90d584dcb4657198"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Statuslabel::has_assets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00026">26</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> $this-&gt;hasMany(<span class="stringliteral">&#39;\App\Models\Asset&#39;</span>, <span class="stringliteral">&#39;status_id&#39;</span>)-&gt;count();</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9e91d83ec85861253cbdd3120abe8167"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Statuslabel::scopeTextSearch </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$query</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$search</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Query builder scope to search on text. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Illuminate\Database\Query\Builder</td><td class="paramname">$query</td><td>Query builder instance </td></tr>
+    <tr><td class="paramtype">text</td><td class="paramname">$search</td><td>Search term</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Illuminate Modified query builder </dd></dl>
+
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00079">79</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> $query-&gt;where(<span class="keyword">function</span> ($query) use ($search) {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        </div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            $query-&gt;where(<span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;LIKE&#39;</span>, <span class="charliteral">&#39;%&#39;</span>.$search.<span class="charliteral">&#39;%&#39;</span>);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        });</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a5a3bf67eab1d0c968928f431a6bfda14"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Statuslabel::$dates = ['deleted_at']</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00014">14</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2286bfebbc5472d855d40dabbe40b1bb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Statuslabel::$fillable = ['name']</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00024">24</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8efd6edd747e1137ab8b8bbacdc2b76c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Statuslabel::$injectUniqueIdentifier = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00013">13</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abbdf5fc39415242cb803586e3d6b4c24"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Statuslabel::$rules</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= array(</div><div class="line">      <span class="stringliteral">&#39;name&#39;</span>  =&gt; <span class="stringliteral">&#39;required|string|unique:status_labels,name,NULL,deleted_at&#39;</span>,</div><div class="line">      </div><div class="line">      <span class="stringliteral">&#39;notes&#39;</span>   =&gt; <span class="stringliteral">&#39;string&#39;</span>,</div><div class="line">    )</div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00018">18</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab364911b051414bc634e922c1a76e213"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Statuslabel::$table = 'status_labels'</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_statuslabel_8php_source.html#l00015">15</a> of file <a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>snipe-it/app/Models/<a class="el" href="_statuslabel_8php_source.html">Statuslabel.php</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+<hr class="footer"/>
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <a target="_blank" class="btn btn-default btn-xs" href="http://docs.snipeitapp.com/">Installation Documentation</a>
+    <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/">Report a Bug</a>
+  </div>
+  <a target="_blank" href="http://snipeitapp.com">Snipe IT</a> is an open source
+  project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeyhead">@snipeyhead</a>.
+  <hr class="footer"/>
+  <div class="center">
+      This documentation generated by <a href="http://www.doxygen.org/index.html">
+      <img class="footer" src="doxygen.png" alt="doxygen" style="max-height: 17px;" />
+      </a> 1.8.11
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>

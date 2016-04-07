@@ -1,0 +1,898 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>App\Models\License Class Reference</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="essentials.css" rel="stylesheet" type="text/css"/>
+<link href="layout.css" rel="stylesheet" type="text/css"/>
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="blue.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header" class="sticky clearfix header-sm shadow-after-3">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Logo -->
+                    <span class="logo pull-left">
+                    <div>
+                        <h3 style="margin-bottom: -25px;"><i class="fa fa-laptop" style="color: #179BD7"></i> <a href="/index.html">Snipe-IT</a></h3>
+                        <br>Open Source Asset Management
+                    </div>
+                    </span>
+                    <!--
+                        Top Nav
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+                        <nav class="nav-main">
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li>
+                                    <a href="https://snipeitapp.com/features"> FEATURES </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/demo"> DEMO </a>
+                                </li>
+                                <li>
+                                    <a href="/download"> DOWNLOAD </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="http://docs.snipeitapp.com"> DOCUMENTATION </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/hosting"> HOSTED SOLUTION </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#"> NEWS </a>
+                                </li> -->
+                                <li>
+                                    <a href="https://snipeitapp.com/support"> SUPPORT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- /Top Nav -->
+        </div>
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" id="top" style="padding-top: 30px;">
+                        <div style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Intro</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_models.html">Models</a></li><li class="navelem"><a class="el" href="class_app_1_1_models_1_1_license.html">License</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="class_app_1_1_models_1_1_license-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">App\Models\License Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for App\Models\License:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_app_1_1_models_1_1_license.png" usemap="#App_5CModels_5CLicense_map" alt=""/>
+  <map id="App_5CModels_5CLicense_map" name="App\Models\License_map">
+<area href="class_app_1_1_models_1_1_depreciable.html" alt="App\Models\Depreciable" shape="rect" coords="0,56,153,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:af7e4dfd4bc40de106bd7f10efc92e3c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#af7e4dfd4bc40de106bd7f10efc92e3c6">company</a> ()</td></tr>
+<tr class="separator:af7e4dfd4bc40de106bd7f10efc92e3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cc50d3d93cc7f3c961d613053f94b32"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a8cc50d3d93cc7f3c961d613053f94b32">assignedusers</a> ()</td></tr>
+<tr class="memdesc:a8cc50d3d93cc7f3c961d613053f94b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the assigned user.  <a href="#a8cc50d3d93cc7f3c961d613053f94b32">More...</a><br /></td></tr>
+<tr class="separator:a8cc50d3d93cc7f3c961d613053f94b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6133769b8eba717a59b33857c5af3f35"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a6133769b8eba717a59b33857c5af3f35">assetlog</a> ()</td></tr>
+<tr class="memdesc:a6133769b8eba717a59b33857c5af3f35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get asset logs for this asset.  <a href="#a6133769b8eba717a59b33857c5af3f35">More...</a><br /></td></tr>
+<tr class="separator:a6133769b8eba717a59b33857c5af3f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed2d561593c7e6c5b2dc518f844d2ddd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#aed2d561593c7e6c5b2dc518f844d2ddd">uploads</a> ()</td></tr>
+<tr class="memdesc:aed2d561593c7e6c5b2dc518f844d2ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get uploads for this asset.  <a href="#aed2d561593c7e6c5b2dc518f844d2ddd">More...</a><br /></td></tr>
+<tr class="separator:aed2d561593c7e6c5b2dc518f844d2ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa95807ded44d7226906b729f9587dc08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#aa95807ded44d7226906b729f9587dc08">adminuser</a> ()</td></tr>
+<tr class="memdesc:aa95807ded44d7226906b729f9587dc08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get admin user for this asset.  <a href="#aa95807ded44d7226906b729f9587dc08">More...</a><br /></td></tr>
+<tr class="separator:aa95807ded44d7226906b729f9587dc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff5b9c64363a5015ae50524de5bf96d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#aff5b9c64363a5015ae50524de5bf96d8">totalSeatsByLicenseID</a> ()</td></tr>
+<tr class="memdesc:aff5b9c64363a5015ae50524de5bf96d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get total licenses.  <a href="#aff5b9c64363a5015ae50524de5bf96d8">More...</a><br /></td></tr>
+<tr class="separator:aff5b9c64363a5015ae50524de5bf96d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44cf3ecfded2d65b0d687e03e7f1ba4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a44cf3ecfded2d65b0d687e03e7f1ba4a">availcount</a> ()</td></tr>
+<tr class="memdesc:a44cf3ecfded2d65b0d687e03e7f1ba4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of available seats.  <a href="#a44cf3ecfded2d65b0d687e03e7f1ba4a">More...</a><br /></td></tr>
+<tr class="separator:a44cf3ecfded2d65b0d687e03e7f1ba4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2d1665be2d820c2a5c181792c740df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#aba2d1665be2d820c2a5c181792c740df">assignedcount</a> ()</td></tr>
+<tr class="memdesc:aba2d1665be2d820c2a5c181792c740df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of assigned seats.  <a href="#aba2d1665be2d820c2a5c181792c740df">More...</a><br /></td></tr>
+<tr class="separator:aba2d1665be2d820c2a5c181792c740df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac849a7ff5ba6701053663ab9e273a6f1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#ac849a7ff5ba6701053663ab9e273a6f1">remaincount</a> ()</td></tr>
+<tr class="separator:ac849a7ff5ba6701053663ab9e273a6f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16c9a5873db28f266ea3d08965152829"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a16c9a5873db28f266ea3d08965152829">totalcount</a> ()</td></tr>
+<tr class="memdesc:a16c9a5873db28f266ea3d08965152829"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the total number of seats.  <a href="#a16c9a5873db28f266ea3d08965152829">More...</a><br /></td></tr>
+<tr class="separator:a16c9a5873db28f266ea3d08965152829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea089116a693e1d0d7a90bcc7e208b89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#aea089116a693e1d0d7a90bcc7e208b89">licenseseats</a> ()</td></tr>
+<tr class="memdesc:aea089116a693e1d0d7a90bcc7e208b89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get license seat data.  <a href="#aea089116a693e1d0d7a90bcc7e208b89">More...</a><br /></td></tr>
+<tr class="separator:aea089116a693e1d0d7a90bcc7e208b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d1ee31b4715fea3302c6df50ae65b13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a3d1ee31b4715fea3302c6df50ae65b13">supplier</a> ()</td></tr>
+<tr class="separator:a3d1ee31b4715fea3302c6df50ae65b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae4078ce18d818c846f0c2a7acb0fcd1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#aae4078ce18d818c846f0c2a7acb0fcd1">freeSeat</a> ()</td></tr>
+<tr class="separator:aae4078ce18d818c846f0c2a7acb0fcd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab027f8c153f8116fc752289858feaec2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#ab027f8c153f8116fc752289858feaec2">scopeTextSearch</a> ($query, $search)</td></tr>
+<tr class="memdesc:ab027f8c153f8116fc752289858feaec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Query builder scope to search on text.  <a href="#ab027f8c153f8116fc752289858feaec2">More...</a><br /></td></tr>
+<tr class="separator:ab027f8c153f8116fc752289858feaec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7503e60bb0c0198c982b2b6478df08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_depreciable.html#a9a7503e60bb0c0198c982b2b6478df08">depreciation</a> ()</td></tr>
+<tr class="memdesc:a9a7503e60bb0c0198c982b2b6478df08"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_app_1_1_models_1_1_depreciation.html">Depreciation</a> Relation, and associated helper methods.  <a href="#a9a7503e60bb0c0198c982b2b6478df08">More...</a><br /></td></tr>
+<tr class="separator:a9a7503e60bb0c0198c982b2b6478df08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a498a57f7c04d249e5e9547e89595bf1b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_depreciable.html#a498a57f7c04d249e5e9547e89595bf1b">get_depreciation</a> ()</td></tr>
+<tr class="separator:a498a57f7c04d249e5e9547e89595bf1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacf5fece16473fa5700b6ecd73f1f68b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_depreciable.html#aacf5fece16473fa5700b6ecd73f1f68b">getDepreciatedValue</a> ()</td></tr>
+<tr class="separator:aacf5fece16473fa5700b6ecd73f1f68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05597c1d39a0b977c3161ef6702fcc9f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_depreciable.html#a05597c1d39a0b977c3161ef6702fcc9f">time_until_depreciated</a> ()</td></tr>
+<tr class="separator:a05597c1d39a0b977c3161ef6702fcc9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa19922c57127e14bd35c7b2596f413f3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_depreciable.html#aa19922c57127e14bd35c7b2596f413f3">depreciated_date</a> ()</td></tr>
+<tr class="separator:aa19922c57127e14bd35c7b2596f413f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a5e86f488e8f6500ef82f00874a068229"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a5e86f488e8f6500ef82f00874a068229">assetcount</a> ()</td></tr>
+<tr class="memdesc:a5e86f488e8f6500ef82f00874a068229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get total licenses.  <a href="#a5e86f488e8f6500ef82f00874a068229">More...</a><br /></td></tr>
+<tr class="separator:a5e86f488e8f6500ef82f00874a068229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a0b3dab2ffc179f74949468e80dc43d"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a6a0b3dab2ffc179f74949468e80dc43d">availassetcount</a> ()</td></tr>
+<tr class="memdesc:a6a0b3dab2ffc179f74949468e80dc43d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get total licenses not checked out.  <a href="#a6a0b3dab2ffc179f74949468e80dc43d">More...</a><br /></td></tr>
+<tr class="separator:a6a0b3dab2ffc179f74949468e80dc43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af279e51d876252d376dddc3ec7843d6e"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#af279e51d876252d376dddc3ec7843d6e">getExpiringLicenses</a> ($days=60)</td></tr>
+<tr class="separator:af279e51d876252d376dddc3ec7843d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a4bd4b9c643366eddd38fd55415c052ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a4bd4b9c643366eddd38fd55415c052ce">$timestamps</a> = true</td></tr>
+<tr class="separator:a4bd4b9c643366eddd38fd55415c052ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a15bab0039bff09786004b86a5258c349"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a15bab0039bff09786004b86a5258c349">$injectUniqueIdentifier</a> = true</td></tr>
+<tr class="separator:a15bab0039bff09786004b86a5258c349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e6678121fc85bcbcd870520135f234"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#ae1e6678121fc85bcbcd870520135f234">$dates</a> = ['deleted_at']</td></tr>
+<tr class="separator:ae1e6678121fc85bcbcd870520135f234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b96e6f04fcc7eceb7959e46a178559"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a54b96e6f04fcc7eceb7959e46a178559">$guarded</a> = 'id'</td></tr>
+<tr class="separator:a54b96e6f04fcc7eceb7959e46a178559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a073e8e0b94066625b43d3cab2e465956"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a073e8e0b94066625b43d3cab2e465956">$table</a> = 'licenses'</td></tr>
+<tr class="separator:a073e8e0b94066625b43d3cab2e465956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3db18379ac55e310c5bb73d52246a600"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_license.html#a3db18379ac55e310c5bb73d52246a600">$rules</a></td></tr>
+<tr class="separator:a3db18379ac55e310c5bb73d52246a600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00010">10</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aa95807ded44d7226906b729f9587dc08"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::adminuser </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get admin user for this asset. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00073">73</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\User&#39;</span>, <span class="stringliteral">&#39;user_id&#39;</span>);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5e86f488e8f6500ef82f00874a068229"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static App\Models\License::assetcount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get total licenses. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00081">81</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> LicenseSeat::whereNull(<span class="stringliteral">&#39;deleted_at&#39;</span>)</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                   -&gt;count();</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6133769b8eba717a59b33857c5af3f35"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::assetlog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get asset logs for this asset. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00050">50</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> $this-&gt;hasMany(<span class="stringliteral">&#39;\App\Models\Actionlog&#39;</span>, <span class="stringliteral">&#39;asset_id&#39;</span>)</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            -&gt;where(<span class="stringliteral">&#39;asset_type&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, <span class="stringliteral">&#39;software&#39;</span>)</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            -&gt;orderBy(<span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;desc&#39;</span>);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aba2d1665be2d820c2a5c181792c740df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::assignedcount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of assigned seats. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00126">126</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    {</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        return \App\Models\LicenseSeat::where(<span class="stringliteral">&#39;license_id&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, $this-&gt;<span class="keywordtype">id</span>)</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            -&gt;where(<span class="keyword">function</span> ($query) {</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                $query-&gt;whereNotNull(<span class="stringliteral">&#39;assigned_to&#39;</span>)</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                -&gt;orWhereNotNull(<span class="stringliteral">&#39;asset_id&#39;</span>);</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            })</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        -&gt;count();</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8cc50d3d93cc7f3c961d613053f94b32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::assignedusers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the assigned user. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00042">42</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsToMany(<span class="stringliteral">&#39;\App\Models\User&#39;</span>, <span class="stringliteral">&#39;license_seats&#39;</span>, <span class="stringliteral">&#39;assigned_to&#39;</span>, <span class="stringliteral">&#39;license_id&#39;</span>);</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6a0b3dab2ffc179f74949468e80dc43d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static App\Models\License::availassetcount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get total licenses not checked out. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00102">102</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> LicenseSeat::whereNull(<span class="stringliteral">&#39;assigned_to&#39;</span>)</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                   -&gt;whereNull(<span class="stringliteral">&#39;asset_id&#39;</span>)</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                   -&gt;whereNull(<span class="stringliteral">&#39;deleted_at&#39;</span>)</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                   -&gt;count();</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a44cf3ecfded2d65b0d687e03e7f1ba4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::availcount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of available seats. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00113">113</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    {</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span> LicenseSeat::whereNull(<span class="stringliteral">&#39;assigned_to&#39;</span>)</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                    -&gt;whereNull(<span class="stringliteral">&#39;asset_id&#39;</span>)</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                    -&gt;where(<span class="stringliteral">&#39;license_id&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, $this-&gt;<span class="keywordtype">id</span>)</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                    -&gt;whereNull(<span class="stringliteral">&#39;deleted_at&#39;</span>)</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                    -&gt;count();</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af7e4dfd4bc40de106bd7f10efc92e3c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::company </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00034">34</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\Company&#39;</span>, <span class="stringliteral">&#39;company_id&#39;</span>);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa19922c57127e14bd35c7b2596f413f3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Depreciable::depreciated_date </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_depreciable_8php_source.html#l00077">77</a> of file <a class="el" href="_depreciable_8php_source.html">Depreciable.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        $date = date_create($this-&gt;purchase_date);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        date_add($date, date_interval_create_from_date_string($this-&gt;<a class="code" href="class_app_1_1_models_1_1_depreciable.html#a498a57f7c04d249e5e9547e89595bf1b">get_depreciation</a>()-&gt;months . <span class="stringliteral">&#39; months&#39;</span>));</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> $date; <span class="comment">//date_format($date, &#39;Y-m-d&#39;); //don&#39;t bake-in format, for internationalization</span></div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div><div class="ttc" id="class_app_1_1_models_1_1_depreciable_html_a498a57f7c04d249e5e9547e89595bf1b"><div class="ttname"><a href="class_app_1_1_models_1_1_depreciable.html#a498a57f7c04d249e5e9547e89595bf1b">App\Models\Depreciable\get_depreciation</a></div><div class="ttdeci">get_depreciation()</div><div class="ttdef"><b>Definition:</b> <a href="_depreciable_8php_source.html#l00033">Depreciable.php:33</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9a7503e60bb0c0198c982b2b6478df08"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Depreciable::depreciation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_app_1_1_models_1_1_depreciation.html">Depreciation</a> Relation, and associated helper methods. </p>
+
+<p>Definition at line <a class="el" href="_depreciable_8php_source.html#l00028">28</a> of file <a class="el" href="_depreciable_8php_source.html">Depreciable.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\Depreciation&#39;</span>, <span class="stringliteral">&#39;depreciation_id&#39;</span>);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aae4078ce18d818c846f0c2a7acb0fcd1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::freeSeat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00172">172</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    {</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        $seat = LicenseSeat::where(<span class="stringliteral">&#39;license_id&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, $this-&gt;<span class="keywordtype">id</span>)</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                    -&gt;whereNull(<span class="stringliteral">&#39;deleted_at&#39;</span>)</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                    -&gt;whereNull(<span class="stringliteral">&#39;assigned_to&#39;</span>)</div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                    -&gt;whereNull(<span class="stringliteral">&#39;asset_id&#39;</span>)</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                    -&gt;first();</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">return</span> $seat-&gt;id;</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a498a57f7c04d249e5e9547e89595bf1b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Depreciable::get_depreciation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_depreciable_8php_source.html#l00033">33</a> of file <a class="el" href="_depreciable_8php_source.html">Depreciable.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> $this-&gt;depreciation;</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aacf5fece16473fa5700b6ecd73f1f68b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Depreciable::getDepreciatedValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>float|int </dd></dl>
+
+<p>Definition at line <a class="el" href="_depreciable_8php_source.html#l00042">42</a> of file <a class="el" href="_depreciable_8php_source.html">Depreciable.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">if</span> (!$this-&gt;<a class="code" href="class_app_1_1_models_1_1_depreciable.html#a498a57f7c04d249e5e9547e89595bf1b">get_depreciation</a>()) { <span class="comment">// will never happen</span></div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">return</span> $this-&gt;purchase_cost;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;<a class="code" href="class_app_1_1_models_1_1_depreciable.html#a498a57f7c04d249e5e9547e89595bf1b">get_depreciation</a>()-&gt;months &lt;= 0) {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">return</span> $this-&gt;purchase_cost;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">// fraction of value left</span></div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        $months_remaining = $this-&gt;<a class="code" href="class_app_1_1_models_1_1_depreciable.html#a05597c1d39a0b977c3161ef6702fcc9f">time_until_depreciated</a>()-&gt;m + 12*$this-&gt;<a class="code" href="class_app_1_1_models_1_1_depreciable.html#a05597c1d39a0b977c3161ef6702fcc9f">time_until_depreciated</a>()-&gt;y; <span class="comment">//UGlY</span></div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        $current_value = round(($months_remaining/ $this-&gt;<a class="code" href="class_app_1_1_models_1_1_depreciable.html#a498a57f7c04d249e5e9547e89595bf1b">get_depreciation</a>()-&gt;months) * $this-&gt;purchase_cost, 2);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">if</span> ($current_value &lt; 0) {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            $current_value = 0;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> $current_value;</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div><div class="ttc" id="class_app_1_1_models_1_1_depreciable_html_a498a57f7c04d249e5e9547e89595bf1b"><div class="ttname"><a href="class_app_1_1_models_1_1_depreciable.html#a498a57f7c04d249e5e9547e89595bf1b">App\Models\Depreciable\get_depreciation</a></div><div class="ttdeci">get_depreciation()</div><div class="ttdef"><b>Definition:</b> <a href="_depreciable_8php_source.html#l00033">Depreciable.php:33</a></div></div>
+<div class="ttc" id="class_app_1_1_models_1_1_depreciable_html_a05597c1d39a0b977c3161ef6702fcc9f"><div class="ttname"><a href="class_app_1_1_models_1_1_depreciable.html#a05597c1d39a0b977c3161ef6702fcc9f">App\Models\Depreciable\time_until_depreciated</a></div><div class="ttdeci">time_until_depreciated()</div><div class="ttdef"><b>Definition:</b> <a href="_depreciable_8php_source.html#l00062">Depreciable.php:62</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af279e51d876252d376dddc3ec7843d6e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static App\Models\License::getExpiringLicenses </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$days</em> = <code>60</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00182">182</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    {</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">return</span> License::whereNotNull(<span class="stringliteral">&#39;expiration_date&#39;</span>)</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        -&gt;whereNull(<span class="stringliteral">&#39;deleted_at&#39;</span>)</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        -&gt;whereRaw(DB::raw(<span class="stringliteral">&#39;DATE_SUB(`expiration_date`,INTERVAL &#39;</span>.$days.<span class="stringliteral">&#39; DAY) &lt;= DATE(NOW()) &#39;</span>))</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        -&gt;where(<span class="stringliteral">&#39;expiration_date&#39;</span>, <span class="charliteral">&#39;&gt;&#39;</span>, date(<span class="stringliteral">&quot;Y-m-d&quot;</span>))</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        -&gt;orderBy(<span class="stringliteral">&#39;expiration_date&#39;</span>, <span class="stringliteral">&#39;ASC&#39;</span>)</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        -&gt;get();</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aea089116a693e1d0d7a90bcc7e208b89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::licenseseats </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get license seat data. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00162">162</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    {</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">return</span> $this-&gt;hasMany(<span class="stringliteral">&#39;\App\Models\LicenseSeat&#39;</span>);</div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac849a7ff5ba6701053663ab9e273a6f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::remaincount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00140">140</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    {</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        $total = $this-&gt;<a class="code" href="class_app_1_1_models_1_1_license.html#aff5b9c64363a5015ae50524de5bf96d8">totalSeatsByLicenseID</a>();</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        $taken =  $this-&gt;<a class="code" href="class_app_1_1_models_1_1_license.html#aba2d1665be2d820c2a5c181792c740df">assignedcount</a>();</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        $diff =   ($total - $taken);</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordflow">return</span> $diff;</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div><div class="ttc" id="class_app_1_1_models_1_1_license_html_aff5b9c64363a5015ae50524de5bf96d8"><div class="ttname"><a href="class_app_1_1_models_1_1_license.html#aff5b9c64363a5015ae50524de5bf96d8">App\Models\License\totalSeatsByLicenseID</a></div><div class="ttdeci">totalSeatsByLicenseID()</div><div class="ttdoc">Get total licenses. </div><div class="ttdef"><b>Definition:</b> <a href="_license_8php_source.html#l00091">License.php:91</a></div></div>
+<div class="ttc" id="class_app_1_1_models_1_1_license_html_aba2d1665be2d820c2a5c181792c740df"><div class="ttname"><a href="class_app_1_1_models_1_1_license.html#aba2d1665be2d820c2a5c181792c740df">App\Models\License\assignedcount</a></div><div class="ttdeci">assignedcount()</div><div class="ttdoc">Get the number of assigned seats. </div><div class="ttdef"><b>Definition:</b> <a href="_license_8php_source.html#l00126">License.php:126</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab027f8c153f8116fc752289858feaec2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::scopeTextSearch </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$query</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$search</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Query builder scope to search on text. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">Illuminate\Database\Query\Builder</td><td class="paramname">$query</td><td>Query builder instance </td></tr>
+    <tr><td class="paramtype">text</td><td class="paramname">$search</td><td>Search term</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Illuminate Modified query builder </dd></dl>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00202">202</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    {</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">return</span> $query-&gt;where(<span class="keyword">function</span> ($query) use ($search) {</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            $query-&gt;where(<span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;LIKE&#39;</span>, <span class="charliteral">&#39;%&#39;</span>.$search.<span class="charliteral">&#39;%&#39;</span>)</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                -&gt;orWhere(<span class="stringliteral">&#39;serial&#39;</span>, <span class="stringliteral">&#39;LIKE&#39;</span>, <span class="charliteral">&#39;%&#39;</span>.$search.<span class="charliteral">&#39;%&#39;</span>)</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                -&gt;orWhere(<span class="stringliteral">&#39;notes&#39;</span>, <span class="stringliteral">&#39;LIKE&#39;</span>, <span class="charliteral">&#39;%&#39;</span>.$search.<span class="charliteral">&#39;%&#39;</span>)</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                -&gt;orWhere(<span class="stringliteral">&#39;order_number&#39;</span>, <span class="stringliteral">&#39;LIKE&#39;</span>, <span class="charliteral">&#39;%&#39;</span>.$search.<span class="charliteral">&#39;%&#39;</span>)</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                -&gt;orWhere(<span class="stringliteral">&#39;purchase_date&#39;</span>, <span class="stringliteral">&#39;LIKE&#39;</span>, <span class="charliteral">&#39;%&#39;</span>.$search.<span class="charliteral">&#39;%&#39;</span>)</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                -&gt;orWhere(<span class="stringliteral">&#39;purchase_cost&#39;</span>, <span class="stringliteral">&#39;LIKE&#39;</span>, <span class="charliteral">&#39;%&#39;</span>.$search.<span class="charliteral">&#39;%&#39;</span>);</div><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        });</div><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3d1ee31b4715fea3302c6df50ae65b13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::supplier </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00167">167</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    {</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\Supplier&#39;</span>, <span class="stringliteral">&#39;supplier_id&#39;</span>);</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a05597c1d39a0b977c3161ef6702fcc9f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Depreciable::time_until_depreciated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_depreciable_8php_source.html#l00062">62</a> of file <a class="el" href="_depreciable_8php_source.html">Depreciable.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="comment">// @link http://www.php.net/manual/en/class.datetime.php</span></div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        $d1 = new \DateTime();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        $d2 = $this-&gt;<a class="code" href="class_app_1_1_models_1_1_depreciable.html#aa19922c57127e14bd35c7b2596f413f3">depreciated_date</a>();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">// @link http://www.php.net/manual/en/class.dateinterval.php</span></div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        $interval = $d1-&gt;diff($d2);</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">if</span> (!$interval-&gt;invert) {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">return</span> $interval;</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">return</span> new \DateInterval(<span class="stringliteral">&quot;PT0S&quot;</span>); <span class="comment">//null interval (zero seconds from now)</span></div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div><div class="ttc" id="class_app_1_1_models_1_1_depreciable_html_aa19922c57127e14bd35c7b2596f413f3"><div class="ttname"><a href="class_app_1_1_models_1_1_depreciable.html#aa19922c57127e14bd35c7b2596f413f3">App\Models\Depreciable\depreciated_date</a></div><div class="ttdeci">depreciated_date()</div><div class="ttdef"><b>Definition:</b> <a href="_depreciable_8php_source.html#l00077">Depreciable.php:77</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a16c9a5873db28f266ea3d08965152829"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::totalcount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the total number of seats. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00151">151</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    {</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        $avail =  $this-&gt;<a class="code" href="class_app_1_1_models_1_1_license.html#a44cf3ecfded2d65b0d687e03e7f1ba4a">availcount</a>();</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        $taken =  $this-&gt;<a class="code" href="class_app_1_1_models_1_1_license.html#aba2d1665be2d820c2a5c181792c740df">assignedcount</a>();</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        $diff =   ($avail + $taken);</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">return</span> $diff;</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div><div class="ttc" id="class_app_1_1_models_1_1_license_html_a44cf3ecfded2d65b0d687e03e7f1ba4a"><div class="ttname"><a href="class_app_1_1_models_1_1_license.html#a44cf3ecfded2d65b0d687e03e7f1ba4a">App\Models\License\availcount</a></div><div class="ttdeci">availcount()</div><div class="ttdoc">Get the number of available seats. </div><div class="ttdef"><b>Definition:</b> <a href="_license_8php_source.html#l00113">License.php:113</a></div></div>
+<div class="ttc" id="class_app_1_1_models_1_1_license_html_aba2d1665be2d820c2a5c181792c740df"><div class="ttname"><a href="class_app_1_1_models_1_1_license.html#aba2d1665be2d820c2a5c181792c740df">App\Models\License\assignedcount</a></div><div class="ttdeci">assignedcount()</div><div class="ttdoc">Get the number of assigned seats. </div><div class="ttdef"><b>Definition:</b> <a href="_license_8php_source.html#l00126">License.php:126</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aff5b9c64363a5015ae50524de5bf96d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::totalSeatsByLicenseID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get total licenses. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00091">91</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    {</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">return</span> LicenseSeat::where(<span class="stringliteral">&#39;license_id&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, $this-&gt;<span class="keywordtype">id</span>)</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                   -&gt;whereNull(<span class="stringliteral">&#39;deleted_at&#39;</span>)</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                   -&gt;count();</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aed2d561593c7e6c5b2dc518f844d2ddd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::uploads </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get uploads for this asset. </p>
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00060">60</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> $this-&gt;hasMany(<span class="stringliteral">&#39;\App\Models\Actionlog&#39;</span>, <span class="stringliteral">&#39;asset_id&#39;</span>)</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            -&gt;where(<span class="stringliteral">&#39;asset_type&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, <span class="stringliteral">&#39;software&#39;</span>)</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            -&gt;where(<span class="stringliteral">&#39;action_type&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, <span class="stringliteral">&#39;uploaded&#39;</span>)</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            -&gt;whereNotNull(<span class="stringliteral">&#39;filename&#39;</span>)</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            -&gt;orderBy(<span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;desc&#39;</span>);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="ae1e6678121fc85bcbcd870520135f234"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::$dates = ['deleted_at']</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00017">17</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a54b96e6f04fcc7eceb7959e46a178559"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::$guarded = 'id'</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00021">21</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a15bab0039bff09786004b86a5258c349"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::$injectUniqueIdentifier = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00014">14</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3db18379ac55e310c5bb73d52246a600"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::$rules</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= array(</div><div class="line">        <span class="stringliteral">&#39;name&#39;</span>   =&gt; <span class="stringliteral">&#39;required|string|min:3|max:255&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;serial&#39;</span>   =&gt; <span class="stringliteral">&#39;required|min:5&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;seats&#39;</span>   =&gt; <span class="stringliteral">&#39;required|min:1|max:10000|integer&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;license_email&#39;</span>   =&gt; <span class="stringliteral">&#39;email|min:0|max:120&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;license_name&#39;</span>   =&gt; <span class="stringliteral">&#39;string|min:0|max:100&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;note&#39;</span>   =&gt; <span class="stringliteral">&#39;string&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;notes&#39;</span>   =&gt; <span class="stringliteral">&#39;string|min:0&#39;</span>,</div><div class="line">        <span class="stringliteral">&#39;company_id&#39;</span> =&gt; <span class="stringliteral">&#39;integer&#39;</span>,</div><div class="line">    )</div></div><!-- fragment -->
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00023">23</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a073e8e0b94066625b43d3cab2e465956"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::$table = 'licenses'</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00022">22</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4bd4b9c643366eddd38fd55415c052ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\License::$timestamps = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_license_8php_source.html#l00019">19</a> of file <a class="el" href="_license_8php_source.html">License.php</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>snipe-it/app/Models/<a class="el" href="_license_8php_source.html">License.php</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+<hr class="footer"/>
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <a target="_blank" class="btn btn-default btn-xs" href="http://docs.snipeitapp.com/">Installation Documentation</a>
+    <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/">Report a Bug</a>
+  </div>
+  <a target="_blank" href="http://snipeitapp.com">Snipe IT</a> is an open source
+  project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeyhead">@snipeyhead</a>.
+  <hr class="footer"/>
+  <div class="center">
+      This documentation generated by <a href="http://www.doxygen.org/index.html">
+      <img class="footer" src="doxygen.png" alt="doxygen" style="max-height: 17px;" />
+      </a> 1.8.11
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>

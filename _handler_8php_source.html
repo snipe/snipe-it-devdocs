@@ -1,0 +1,185 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>snipe-it/app/Exceptions/Handler.php Source File</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="essentials.css" rel="stylesheet" type="text/css"/>
+<link href="layout.css" rel="stylesheet" type="text/css"/>
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="blue.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header" class="sticky clearfix header-sm shadow-after-3">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Logo -->
+                    <span class="logo pull-left">
+                    <div>
+                        <h3 style="margin-bottom: -25px;"><i class="fa fa-laptop" style="color: #179BD7"></i> <a href="/index.html">Snipe-IT</a></h3>
+                        <br>Open Source Asset Management
+                    </div>
+                    </span>
+                    <!--
+                        Top Nav
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+                        <nav class="nav-main">
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li>
+                                    <a href="https://snipeitapp.com/features"> FEATURES </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/demo"> DEMO </a>
+                                </li>
+                                <li>
+                                    <a href="/download"> DOWNLOAD </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="http://docs.snipeitapp.com"> DOCUMENTATION </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/hosting"> HOSTED SOLUTION </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#"> NEWS </a>
+                                </li> -->
+                                <li>
+                                    <a href="https://snipeitapp.com/support"> SUPPORT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- /Top Nav -->
+        </div>
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" id="top" style="padding-top: 30px;">
+                        <div style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Intro</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b66c07863a82ce81f25be6cf6fc99407.html">snipe-it</a></li><li class="navelem"><a class="el" href="dir_5dbe4fadb6d0940c9891af3ad70b7ece.html">app</a></li><li class="navelem"><a class="el" href="dir_4d21ae48dfb1d0eb71b1d3402f5baa91.html">Exceptions</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Handler.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_handler_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="namespace_app_1_1_exceptions.html">    3</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespace_app_1_1_exceptions.html">App\Exceptions</a>;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;use <a class="code" href="namespace_exception.html">Exception</a>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;use <a class="code" href="namespace_illuminate_1_1_validation_1_1_validation_exception.html">Illuminate\Validation\ValidationException</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;use <a class="code" href="namespace_illuminate_1_1_auth_1_1_access_1_1_authorization_exception.html">Illuminate\Auth\Access\AuthorizationException</a>;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;use <a class="code" href="namespace_illuminate_1_1_database_1_1_eloquent_1_1_model_not_found_exception.html">Illuminate\Database\Eloquent\ModelNotFoundException</a>;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;use <a class="code" href="namespace_symfony_1_1_component_1_1_http_kernel_1_1_exception_1_1_http_exception.html">Symfony\Component\HttpKernel\Exception\HttpException</a>;</div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;</div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_app_1_1_exceptions_1_1_handler.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_app_1_1_exceptions_1_1_handler.html">Handler</a> <span class="keyword">extends</span> ExceptionHandler</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_app_1_1_exceptions_1_1_handler.html#a5533e7b90c8935f68bd8fd8b68e957c7">   19</a></span>&#160;    <span class="keyword">protected</span> <a class="code" href="class_app_1_1_exceptions_1_1_handler.html#a5533e7b90c8935f68bd8fd8b68e957c7">$dontReport</a> = [</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        AuthorizationException::class,</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        HttpException::class,</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        ModelNotFoundException::class,</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        ValidationException::class,</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    ];</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="class_app_1_1_exceptions_1_1_handler.html#af22245f99075b9c81e5952c6595c6ad2">   34</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_app_1_1_exceptions_1_1_handler.html#af22245f99075b9c81e5952c6595c6ad2">report</a>(<a class="code" href="namespace_exception.html">Exception</a> $e)</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        parent::report($e);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="class_app_1_1_exceptions_1_1_handler.html#a66fa404d17319d403ff2c2e0f3c81420">   46</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_app_1_1_exceptions_1_1_handler.html#a66fa404d17319d403ff2c2e0f3c81420">render</a>($request, <a class="code" href="namespace_exception.html">Exception</a> $e)</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">if</span> ($e instanceof \Illuminate\<a class="code" href="namespace_session.html">Session</a>\TokenMismatchException) {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;          <span class="keywordflow">return</span> redirect()-&gt;back()-&gt;with(<span class="stringliteral">&#39;error&#39;</span>, trans(<span class="stringliteral">&#39;general.token_expired&#39;</span>));</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;isHttpException($e)) {</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        $statusCode = $e-&gt;getStatusCode();</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">switch</span> ($statusCode) {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">case</span> <span class="stringliteral">&#39;404&#39;</span>:</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;              <span class="keywordflow">return</span> response()-&gt;view(<span class="stringliteral">&#39;layouts/basic&#39;</span>, [</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                  <span class="stringliteral">&#39;content&#39;</span> =&gt; view(<span class="stringliteral">&#39;errors/404&#39;</span>)</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;              ]);</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;          }</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">return</span> parent::render($request, $e);</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div><div class="ttc" id="class_app_1_1_exceptions_1_1_handler_html_a5533e7b90c8935f68bd8fd8b68e957c7"><div class="ttname"><a href="class_app_1_1_exceptions_1_1_handler.html#a5533e7b90c8935f68bd8fd8b68e957c7">App\Exceptions\Handler\$dontReport</a></div><div class="ttdeci">$dontReport</div><div class="ttdef"><b>Definition:</b> <a href="_handler_8php_source.html#l00019">Handler.php:19</a></div></div>
+<div class="ttc" id="namespace_illuminate_1_1_validation_1_1_validation_exception_html"><div class="ttname"><a href="namespace_illuminate_1_1_validation_1_1_validation_exception.html">ValidationException</a></div></div>
+<div class="ttc" id="class_app_1_1_exceptions_1_1_handler_html"><div class="ttname"><a href="class_app_1_1_exceptions_1_1_handler.html">App\Exceptions\Handler</a></div><div class="ttdef"><b>Definition:</b> <a href="_handler_8php_source.html#l00012">Handler.php:12</a></div></div>
+<div class="ttc" id="namespace_illuminate_1_1_database_1_1_eloquent_1_1_model_not_found_exception_html"><div class="ttname"><a href="namespace_illuminate_1_1_database_1_1_eloquent_1_1_model_not_found_exception.html">ModelNotFoundException</a></div></div>
+<div class="ttc" id="namespace_exception_html"><div class="ttname"><a href="namespace_exception.html">Exception</a></div></div>
+<div class="ttc" id="namespace_session_html"><div class="ttname"><a href="namespace_session.html">Session</a></div></div>
+<div class="ttc" id="namespace_app_1_1_exceptions_html"><div class="ttname"><a href="namespace_app_1_1_exceptions.html">App\Exceptions</a></div><div class="ttdef"><b>Definition:</b> <a href="_handler_8php_source.html#l00003">Handler.php:3</a></div></div>
+<div class="ttc" id="namespace_symfony_1_1_component_1_1_http_kernel_1_1_exception_1_1_http_exception_html"><div class="ttname"><a href="namespace_symfony_1_1_component_1_1_http_kernel_1_1_exception_1_1_http_exception.html">HttpException</a></div></div>
+<div class="ttc" id="class_app_1_1_exceptions_1_1_handler_html_af22245f99075b9c81e5952c6595c6ad2"><div class="ttname"><a href="class_app_1_1_exceptions_1_1_handler.html#af22245f99075b9c81e5952c6595c6ad2">App\Exceptions\Handler\report</a></div><div class="ttdeci">report(Exception $e)</div><div class="ttdoc">Report or log an exception. </div><div class="ttdef"><b>Definition:</b> <a href="_handler_8php_source.html#l00034">Handler.php:34</a></div></div>
+<div class="ttc" id="namespace_illuminate_1_1_auth_1_1_access_1_1_authorization_exception_html"><div class="ttname"><a href="namespace_illuminate_1_1_auth_1_1_access_1_1_authorization_exception.html">AuthorizationException</a></div></div>
+<div class="ttc" id="class_app_1_1_exceptions_1_1_handler_html_a66fa404d17319d403ff2c2e0f3c81420"><div class="ttname"><a href="class_app_1_1_exceptions_1_1_handler.html#a66fa404d17319d403ff2c2e0f3c81420">App\Exceptions\Handler\render</a></div><div class="ttdeci">render($request, Exception $e)</div><div class="ttdoc">Render an exception into an HTTP response. </div><div class="ttdef"><b>Definition:</b> <a href="_handler_8php_source.html#l00046">Handler.php:46</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+<hr class="footer"/>
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <a target="_blank" class="btn btn-default btn-xs" href="http://docs.snipeitapp.com/">Installation Documentation</a>
+    <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/">Report a Bug</a>
+  </div>
+  <a target="_blank" href="http://snipeitapp.com">Snipe IT</a> is an open source
+  project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeyhead">@snipeyhead</a>.
+  <hr class="footer"/>
+  <div class="center">
+      This documentation generated by <a href="http://www.doxygen.org/index.html">
+      <img class="footer" src="doxygen.png" alt="doxygen" style="max-height: 17px;" />
+      </a> 1.8.11
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>

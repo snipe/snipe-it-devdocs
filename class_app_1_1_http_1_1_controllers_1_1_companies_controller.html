@@ -1,0 +1,370 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>App\Http\Controllers\CompaniesController Class Reference</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="essentials.css" rel="stylesheet" type="text/css"/>
+<link href="layout.css" rel="stylesheet" type="text/css"/>
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="blue.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header" class="sticky clearfix header-sm shadow-after-3">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Logo -->
+                    <span class="logo pull-left">
+                    <div>
+                        <h3 style="margin-bottom: -25px;"><i class="fa fa-laptop" style="color: #179BD7"></i> <a href="/index.html">Snipe-IT</a></h3>
+                        <br>Open Source Asset Management
+                    </div>
+                    </span>
+                    <!--
+                        Top Nav
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+                        <nav class="nav-main">
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li>
+                                    <a href="https://snipeitapp.com/features"> FEATURES </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/demo"> DEMO </a>
+                                </li>
+                                <li>
+                                    <a href="/download"> DOWNLOAD </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="http://docs.snipeitapp.com"> DOCUMENTATION </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/hosting"> HOSTED SOLUTION </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#"> NEWS </a>
+                                </li> -->
+                                <li>
+                                    <a href="https://snipeitapp.com/support"> SUPPORT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- /Top Nav -->
+        </div>
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" id="top" style="padding-top: 30px;">
+                        <div style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Intro</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_http.html">Http</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_http_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_companies_controller.html">CompaniesController</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="class_app_1_1_http_1_1_controllers_1_1_companies_controller-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">App\Http\Controllers\CompaniesController Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for App\Http\Controllers\CompaniesController:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_app_1_1_http_1_1_controllers_1_1_companies_controller.png" usemap="#App_5CHttp_5CControllers_5CCompaniesController_map" alt=""/>
+  <map id="App_5CHttp_5CControllers_5CCompaniesController_map" name="App\Http\Controllers\CompaniesController_map">
+<area href="class_app_1_1_http_1_1_controllers_1_1_controller.html" alt="App\Http\Controllers\Controller" shape="rect" coords="0,56,249,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ae296584f775543239516d4c497051101"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_companies_controller.html#ae296584f775543239516d4c497051101">getIndex</a> ()</td></tr>
+<tr class="memdesc:ae296584f775543239516d4c497051101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns view to display listing of companies.  <a href="#ae296584f775543239516d4c497051101">More...</a><br /></td></tr>
+<tr class="separator:ae296584f775543239516d4c497051101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37054a209e739be68ffc8bc1d6845e2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_companies_controller.html#af37054a209e739be68ffc8bc1d6845e2">getCreate</a> ()</td></tr>
+<tr class="memdesc:af37054a209e739be68ffc8bc1d6845e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns view to create a new company.  <a href="#af37054a209e739be68ffc8bc1d6845e2">More...</a><br /></td></tr>
+<tr class="separator:af37054a209e739be68ffc8bc1d6845e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c36ecef6463e64a2d8c13caf4f61df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_companies_controller.html#ad8c36ecef6463e64a2d8c13caf4f61df">postCreate</a> ()</td></tr>
+<tr class="memdesc:ad8c36ecef6463e64a2d8c13caf4f61df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save data from new company form.  <a href="#ad8c36ecef6463e64a2d8c13caf4f61df">More...</a><br /></td></tr>
+<tr class="separator:ad8c36ecef6463e64a2d8c13caf4f61df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f8232181952eab295176783ae2d916c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_companies_controller.html#a0f8232181952eab295176783ae2d916c">getEdit</a> ($companyId)</td></tr>
+<tr class="memdesc:a0f8232181952eab295176783ae2d916c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return form to edit existing company.  <a href="#a0f8232181952eab295176783ae2d916c">More...</a><br /></td></tr>
+<tr class="separator:a0f8232181952eab295176783ae2d916c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38965c2becab575ea23454cb672c78a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_companies_controller.html#a38965c2becab575ea23454cb672c78a7">postEdit</a> ($companyId)</td></tr>
+<tr class="memdesc:a38965c2becab575ea23454cb672c78a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save data from edit company form.  <a href="#a38965c2becab575ea23454cb672c78a7">More...</a><br /></td></tr>
+<tr class="separator:a38965c2becab575ea23454cb672c78a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58aa8e5f38008a37f96d98839b249c9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_companies_controller.html#a58aa8e5f38008a37f96d98839b249c9b">postDelete</a> ($companyId)</td></tr>
+<tr class="memdesc:a58aa8e5f38008a37f96d98839b249c9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete company.  <a href="#a58aa8e5f38008a37f96d98839b249c9b">More...</a><br /></td></tr>
+<tr class="separator:a58aa8e5f38008a37f96d98839b249c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_companies_controller_8php_source.html#l00010">10</a> of file <a class="el" href="_companies_controller_8php_source.html">CompaniesController.php</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="af37054a209e739be68ffc8bc1d6845e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CompaniesController::getCreate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns view to create a new company. </p>
+<dl class="section author"><dt>Author</dt><dd>[Abdullah Alansari] [<a href="#" onclick="location.href='mai'+'lto:'+'ahi'+'mt'+'a@g'+'ma'+'il.'+'co'+'m'; return false;">ahimt<span style="display: none;">.nosp@m.</span>a@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a>] </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>[v1.8] </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>View </dd></dl>
+
+<p>Definition at line <a class="el" href="_companies_controller_8php_source.html#l00032">32</a> of file <a class="el" href="_companies_controller_8php_source.html">CompaniesController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> View::make(<span class="stringliteral">&#39;companies/edit&#39;</span>)-&gt;with(<span class="stringliteral">&#39;company&#39;</span>, <span class="keyword">new</span> Company);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0f8232181952eab295176783ae2d916c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CompaniesController::getEdit </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$companyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return form to edit existing company. </p>
+<dl class="section author"><dt>Author</dt><dd>[Abdullah Alansari] [<a href="#" onclick="location.href='mai'+'lto:'+'ahi'+'mt'+'a@g'+'ma'+'il.'+'co'+'m'; return false;">ahimt<span style="display: none;">.nosp@m.</span>a@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a>] </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>[v1.8] </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$companyId</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>View </dd></dl>
+
+<p>Definition at line <a class="el" href="_companies_controller_8php_source.html#l00068">68</a> of file <a class="el" href="_companies_controller_8php_source.html">CompaniesController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">if</span> (is_null($company = Company::find($companyId))) {</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&#39;admin/settings/companies&#39;</span>)</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                -&gt;with(<span class="stringliteral">&#39;error&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/companies/message.does_not_exist&#39;</span>));</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keywordflow">return</span> View::make(<span class="stringliteral">&#39;companies/edit&#39;</span>)-&gt;with(<span class="stringliteral">&#39;company&#39;</span>, $company);</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae296584f775543239516d4c497051101"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CompaniesController::getIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns view to display listing of companies. </p>
+<dl class="section author"><dt>Author</dt><dd>[Abdullah Alansari] [<a href="#" onclick="location.href='mai'+'lto:'+'ahi'+'mt'+'a@g'+'ma'+'il.'+'co'+'m'; return false;">ahimt<span style="display: none;">.nosp@m.</span>a@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a>] </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>[v1.8] </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>View </dd></dl>
+
+<p>Definition at line <a class="el" href="_companies_controller_8php_source.html#l00020">20</a> of file <a class="el" href="_companies_controller_8php_source.html">CompaniesController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> View::make(<span class="stringliteral">&#39;companies/index&#39;</span>)-&gt;with(<span class="stringliteral">&#39;companies&#39;</span>, Company::all());</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad8c36ecef6463e64a2d8c13caf4f61df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CompaniesController::postCreate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save data from new company form. </p>
+<dl class="section author"><dt>Author</dt><dd>[Abdullah Alansari] [<a href="#" onclick="location.href='mai'+'lto:'+'ahi'+'mt'+'a@g'+'ma'+'il.'+'co'+'m'; return false;">ahimt<span style="display: none;">.nosp@m.</span>a@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a>] </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>[v1.8] </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Redirect </dd></dl>
+
+<p>Definition at line <a class="el" href="_companies_controller_8php_source.html#l00044">44</a> of file <a class="el" href="_companies_controller_8php_source.html">CompaniesController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        $company = <span class="keyword">new</span> Company;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            $company-&gt;name = e(Input::get(<span class="stringliteral">&#39;name&#39;</span>));</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">if</span> ($company-&gt;save()) {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&#39;admin/settings/companies&#39;</span>)</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                -&gt;with(<span class="stringliteral">&#39;success&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/companies/message.create.success&#39;</span>));</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">return</span> Redirect::back()-&gt;withInput()-&gt;withErrors($company-&gt;getErrors());</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a58aa8e5f38008a37f96d98839b249c9b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CompaniesController::postDelete </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$companyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delete company. </p>
+<dl class="section author"><dt>Author</dt><dd>[Abdullah Alansari] [<a href="#" onclick="location.href='mai'+'lto:'+'ahi'+'mt'+'a@g'+'ma'+'il.'+'co'+'m'; return false;">ahimt<span style="display: none;">.nosp@m.</span>a@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a>] </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>[v1.8] </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$companyId</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Redirect </dd></dl>
+
+<p>Definition at line <a class="el" href="_companies_controller_8php_source.html#l00114">114</a> of file <a class="el" href="_companies_controller_8php_source.html">CompaniesController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">if</span> (is_null($company = Company::find($companyId))) {</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&#39;admin/settings/companies&#39;</span>)</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                -&gt;with(<span class="stringliteral">&#39;error&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/companies/message.not_found&#39;</span>));</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">try</span> {</div><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                $company-&gt;delete();</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&#39;admin/settings/companies&#39;</span>)</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                    -&gt;with(<span class="stringliteral">&#39;success&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/companies/message.delete.success&#39;</span>));</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            } <span class="keywordflow">catch</span> (\Illuminate\Database\QueryException $exception) {</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="comment">/*</span></div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="comment">                 * NOTE: This happens when there&#39;s a foreign key constraint violation</span></div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">                 * For example when rows in other tables are referencing this company</span></div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">                 */</span></div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                <span class="keywordflow">if</span> ($exception-&gt;getCode() == 23000) {</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                    <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&#39;admin/settings/companies&#39;</span>)</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                        -&gt;with(<span class="stringliteral">&#39;error&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/companies/message.assoc_users&#39;</span>));</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                    <span class="keywordflow">throw</span> $exception;</div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                }</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            }</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        }</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a38965c2becab575ea23454cb672c78a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CompaniesController::postEdit </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$companyId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Save data from edit company form. </p>
+<dl class="section author"><dt>Author</dt><dd>[Abdullah Alansari] [<a href="#" onclick="location.href='mai'+'lto:'+'ahi'+'mt'+'a@g'+'ma'+'il.'+'co'+'m'; return false;">ahimt<span style="display: none;">.nosp@m.</span>a@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a>] </dd></dl>
+<dl class="section since"><dt>Since</dt><dd>[v1.8] </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$companyId</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Redirect </dd></dl>
+
+<p>Definition at line <a class="el" href="_companies_controller_8php_source.html#l00086">86</a> of file <a class="el" href="_companies_controller_8php_source.html">CompaniesController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">if</span> (is_null($company = Company::find($companyId))) {</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&#39;admin/settings/companies&#39;</span>)-&gt;with(<span class="stringliteral">&#39;error&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/companies/message.does_not_exist&#39;</span>));</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            $company-&gt;name = e(Input::get(<span class="stringliteral">&#39;name&#39;</span>));</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">if</span> ($company-&gt;save()) {</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&#39;admin/settings/companies&#39;</span>)</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    -&gt;with(<span class="stringliteral">&#39;success&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/companies/message.update.success&#39;</span>));</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&quot;admin/settings/companies/$companyId/edit&quot;</span>)</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                    -&gt;with(<span class="stringliteral">&#39;error&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/companies/message.update.error&#39;</span>));</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            }</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        }</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>snipe-it/app/Http/Controllers/<a class="el" href="_companies_controller_8php_source.html">CompaniesController.php</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+<hr class="footer"/>
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <a target="_blank" class="btn btn-default btn-xs" href="http://docs.snipeitapp.com/">Installation Documentation</a>
+    <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/">Report a Bug</a>
+  </div>
+  <a target="_blank" href="http://snipeitapp.com">Snipe IT</a> is an open source
+  project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeyhead">@snipeyhead</a>.
+  <hr class="footer"/>
+  <div class="center">
+      This documentation generated by <a href="http://www.doxygen.org/index.html">
+      <img class="footer" src="doxygen.png" alt="doxygen" style="max-height: 17px;" />
+      </a> 1.8.11
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>

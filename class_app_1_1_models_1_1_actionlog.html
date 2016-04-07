@@ -1,0 +1,616 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>App\Models\Actionlog Class Reference</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="essentials.css" rel="stylesheet" type="text/css"/>
+<link href="layout.css" rel="stylesheet" type="text/css"/>
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="blue.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header" class="sticky clearfix header-sm shadow-after-3">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Logo -->
+                    <span class="logo pull-left">
+                    <div>
+                        <h3 style="margin-bottom: -25px;"><i class="fa fa-laptop" style="color: #179BD7"></i> <a href="/index.html">Snipe-IT</a></h3>
+                        <br>Open Source Asset Management
+                    </div>
+                    </span>
+                    <!--
+                        Top Nav
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+                        <nav class="nav-main">
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li>
+                                    <a href="https://snipeitapp.com/features"> FEATURES </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/demo"> DEMO </a>
+                                </li>
+                                <li>
+                                    <a href="/download"> DOWNLOAD </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="http://docs.snipeitapp.com"> DOCUMENTATION </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/hosting"> HOSTED SOLUTION </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#"> NEWS </a>
+                                </li> -->
+                                <li>
+                                    <a href="https://snipeitapp.com/support"> SUPPORT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- /Top Nav -->
+        </div>
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" id="top" style="padding-top: 30px;">
+                        <div style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Intro</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_models.html">Models</a></li><li class="navelem"><a class="el" href="class_app_1_1_models_1_1_actionlog.html">Actionlog</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="class_app_1_1_models_1_1_actionlog-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">App\Models\Actionlog Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for App\Models\Actionlog:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_app_1_1_models_1_1_actionlog.png" usemap="#App_5CModels_5CActionlog_map" alt=""/>
+  <map id="App_5CModels_5CActionlog_map" name="App\Models\Actionlog_map">
+<area href="interface_app_1_1_models_1_1_i_companyable_child.html" alt="App\Models\ICompanyableChild" shape="rect" coords="203,0,396,24"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ac7eb8591b5c6e542616457e9f5920d45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#ac7eb8591b5c6e542616457e9f5920d45">getCompanyableParents</a> ()</td></tr>
+<tr class="separator:ac7eb8591b5c6e542616457e9f5920d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26fbbd4427ab226fd37f4464c930c68a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a26fbbd4427ab226fd37f4464c930c68a">assetlog</a> ()</td></tr>
+<tr class="separator:a26fbbd4427ab226fd37f4464c930c68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38aa72844fb0f4977c7da3c12469c6bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a38aa72844fb0f4977c7da3c12469c6bf">uploads</a> ()</td></tr>
+<tr class="separator:a38aa72844fb0f4977c7da3c12469c6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6931f9b2fd73034975e346295b8c50c4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a6931f9b2fd73034975e346295b8c50c4">licenselog</a> ()</td></tr>
+<tr class="separator:a6931f9b2fd73034975e346295b8c50c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55fa266090ce27fc2004251b5f4a1d22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a55fa266090ce27fc2004251b5f4a1d22">accessorylog</a> ()</td></tr>
+<tr class="separator:a55fa266090ce27fc2004251b5f4a1d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aada9cd216afb9b7860330d1e61a724af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#aada9cd216afb9b7860330d1e61a724af">consumablelog</a> ()</td></tr>
+<tr class="separator:aada9cd216afb9b7860330d1e61a724af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4262ca17c578c454d02646aa1f6bcd8c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a4262ca17c578c454d02646aa1f6bcd8c">adminlog</a> ()</td></tr>
+<tr class="separator:a4262ca17c578c454d02646aa1f6bcd8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90fc123790d23dc5c879e7cded3aba2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a90fc123790d23dc5c879e7cded3aba2c">userlog</a> ()</td></tr>
+<tr class="separator:a90fc123790d23dc5c879e7cded3aba2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91293503fde30aad0544c416da1f701f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a91293503fde30aad0544c416da1f701f">childlogs</a> ()</td></tr>
+<tr class="separator:a91293503fde30aad0544c416da1f701f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1b8b611cdb82b9a9acd2965a68e4c29"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#ac1b8b611cdb82b9a9acd2965a68e4c29">parentlog</a> ()</td></tr>
+<tr class="separator:ac1b8b611cdb82b9a9acd2965a68e4c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ddfe1db6aaf9a16295aa154266c46fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a4ddfe1db6aaf9a16295aa154266c46fb">get_src</a> ($type= 'assets')</td></tr>
+<tr class="memdesc:a4ddfe1db6aaf9a16295aa154266c46fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the file exists, and if it does, force a download.  <a href="#a4ddfe1db6aaf9a16295aa154266c46fb">More...</a><br /></td></tr>
+<tr class="separator:a4ddfe1db6aaf9a16295aa154266c46fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6de329700f52e722597984f7ae35f4d4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a6de329700f52e722597984f7ae35f4d4">logaction</a> ($actiontype)</td></tr>
+<tr class="memdesc:a6de329700f52e722597984f7ae35f4d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the parent category name.  <a href="#a6de329700f52e722597984f7ae35f4d4">More...</a><br /></td></tr>
+<tr class="separator:a6de329700f52e722597984f7ae35f4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a415531a232b925ed3cd38ca8ba53d71e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a415531a232b925ed3cd38ca8ba53d71e">getListingOfActionLogsChronologicalOrder</a> ()</td></tr>
+<tr class="memdesc:a415531a232b925ed3cd38ca8ba53d71e"><td class="mdescLeft">&#160;</td><td class="mdescRight">getListingOfActionLogsChronologicalOrder  <a href="#a415531a232b925ed3cd38ca8ba53d71e">More...</a><br /></td></tr>
+<tr class="separator:a415531a232b925ed3cd38ca8ba53d71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26bf1e8f2e70170f8a3722d3b2e867f5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a26bf1e8f2e70170f8a3722d3b2e867f5">getLatestCheckoutActionForAssets</a> ()</td></tr>
+<tr class="memdesc:a26bf1e8f2e70170f8a3722d3b2e867f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">getLatestCheckoutActionForAssets  <a href="#a26bf1e8f2e70170f8a3722d3b2e867f5">More...</a><br /></td></tr>
+<tr class="separator:a26bf1e8f2e70170f8a3722d3b2e867f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae37040279b115b1924f921f5811da98b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#ae37040279b115b1924f921f5811da98b">scopeCheckoutWithoutAcceptance</a> ($query)</td></tr>
+<tr class="memdesc:ae37040279b115b1924f921f5811da98b"><td class="mdescLeft">&#160;</td><td class="mdescRight">scopeCheckoutWithoutAcceptance  <a href="#ae37040279b115b1924f921f5811da98b">More...</a><br /></td></tr>
+<tr class="separator:ae37040279b115b1924f921f5811da98b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a8b35b3ed90ee0aff4e9d3f13c4e2a110"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a8b35b3ed90ee0aff4e9d3f13c4e2a110">$timestamps</a> = true</td></tr>
+<tr class="separator:a8b35b3ed90ee0aff4e9d3f13c4e2a110"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a06e507a37aab66752c54637674637827"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#a06e507a37aab66752c54637674637827">$dates</a> = [ 'deleted_at' ]</td></tr>
+<tr class="separator:a06e507a37aab66752c54637674637827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6c30c15ebc9e6f9ce4f1adb7c2b3afa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#ab6c30c15ebc9e6f9ce4f1adb7c2b3afa">$table</a> = 'asset_logs'</td></tr>
+<tr class="separator:ab6c30c15ebc9e6f9ce4f1adb7c2b3afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3260c0eb6b0e75cafe2d74186b44bad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_models_1_1_actionlog.html#ac3260c0eb6b0e75cafe2d74186b44bad">$fillable</a> = [ 'created_at', 'asset_type' ]</td></tr>
+<tr class="separator:ac3260c0eb6b0e75cafe2d74186b44bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00009">9</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a55fa266090ce27fc2004251b5f4a1d22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::accessorylog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00047">47</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    {</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\Accessory&#39;</span>, <span class="stringliteral">&#39;accessory_id&#39;</span>)</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                    -&gt;withTrashed();</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4262ca17c578c454d02646aa1f6bcd8c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::adminlog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00061">61</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\User&#39;</span>, <span class="stringliteral">&#39;user_id&#39;</span>)</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                    -&gt;withTrashed();</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a26fbbd4427ab226fd37f4464c930c68a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::assetlog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00025">25</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\Asset&#39;</span>, <span class="stringliteral">&#39;asset_id&#39;</span>)</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                    -&gt;withTrashed();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a91293503fde30aad0544c416da1f701f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::childlogs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00075">75</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    {</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> $this-&gt;hasMany(<span class="stringliteral">&#39;\App\Models\ActionLog&#39;</span>, <span class="stringliteral">&#39;thread_id&#39;</span>);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aada9cd216afb9b7860330d1e61a724af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::consumablelog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00054">54</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\Consumable&#39;</span>, <span class="stringliteral">&#39;consumable_id&#39;</span>)</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                    -&gt;withTrashed();</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4ddfe1db6aaf9a16295aa154266c46fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::get_src </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$type</em> = <code>'assets'</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the file exists, and if it does, force a download. </p>
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00090">90</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    {</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        $file = config(<span class="stringliteral">&#39;app.private_uploads&#39;</span>) . <span class="charliteral">&#39;/&#39;</span> . $type . <span class="charliteral">&#39;/&#39;</span> . $this-&gt;filename;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> $file;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac7eb8591b5c6e542616457e9f5920d45"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::getCompanyableParents </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_app_1_1_models_1_1_i_companyable_child.html#a1b74a8a8c5312a334c50beb917a94fe5">App\Models\ICompanyableChild</a>.</p>
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00020">20</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> [ <span class="stringliteral">&#39;accessorylog&#39;</span>, <span class="stringliteral">&#39;assetlog&#39;</span>, <span class="stringliteral">&#39;licenselog&#39;</span>, <span class="stringliteral">&#39;consumablelog&#39;</span> ];</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a26bf1e8f2e70170f8a3722d3b2e867f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::getLatestCheckoutActionForAssets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getLatestCheckoutActionForAssets </p>
+<dl class="section return"><dt>Returns</dt><dd>mixed </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Vincent Sposato <a href="#" onclick="location.href='mai'+'lto:'+'vin'+'ce'+'nt.'+'sp'+'osa'+'to'+'@gm'+'ai'+'l.c'+'om'; return false;">vince<span style="display: none;">.nosp@m.</span>nt.s<span style="display: none;">.nosp@m.</span>posat<span style="display: none;">.nosp@m.</span>o@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>v1.0 </dd></dl>
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00139">139</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    {</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> DB::table(<span class="stringliteral">&#39;asset_logs&#39;</span>)</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                 -&gt;select(DB::raw(<span class="stringliteral">&#39;asset_id, MAX(created_at) as last_created&#39;</span>))</div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                 -&gt;where(<span class="stringliteral">&#39;action_type&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, <span class="stringliteral">&#39;checkout&#39;</span>)</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                 -&gt;groupBy(<span class="stringliteral">&#39;asset_id&#39;</span>)</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                 -&gt;get();</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a415531a232b925ed3cd38ca8ba53d71e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::getListingOfActionLogsChronologicalOrder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>getListingOfActionLogsChronologicalOrder </p>
+<dl class="section return"><dt>Returns</dt><dd>mixed </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Vincent Sposato <a href="#" onclick="location.href='mai'+'lto:'+'vin'+'ce'+'nt.'+'sp'+'osa'+'to'+'@gm'+'ai'+'l.c'+'om'; return false;">vince<span style="display: none;">.nosp@m.</span>nt.s<span style="display: none;">.nosp@m.</span>posat<span style="display: none;">.nosp@m.</span>o@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>v1.0 </dd></dl>
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00121">121</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    {</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">return</span> DB::table(<span class="stringliteral">&#39;asset_logs&#39;</span>)</div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                 -&gt;select(<span class="charliteral">&#39;*&#39;</span>)</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                 -&gt;where(<span class="stringliteral">&#39;action_type&#39;</span>, <span class="stringliteral">&#39;!=&#39;</span>, <span class="stringliteral">&#39;uploaded&#39;</span>)</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                 -&gt;orderBy(<span class="stringliteral">&#39;asset_id&#39;</span>, <span class="stringliteral">&#39;asc&#39;</span>)</div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                 -&gt;orderBy(<span class="stringliteral">&#39;created_at&#39;</span>, <span class="stringliteral">&#39;asc&#39;</span>)</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                 -&gt;get();</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6931f9b2fd73034975e346295b8c50c4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::licenselog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00040">40</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\License&#39;</span>, <span class="stringliteral">&#39;asset_id&#39;</span>)</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                    -&gt;withTrashed();</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6de329700f52e722597984f7ae35f4d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::logaction </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$actiontype</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the parent category name. </p>
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00102">102</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        $this-&gt;action_type = $actiontype;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span> ($this-&gt;save()) {</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        }</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac1b8b611cdb82b9a9acd2965a68e4c29"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::parentlog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00081">81</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\ActionLog&#39;</span>, <span class="stringliteral">&#39;thread_id&#39;</span>);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae37040279b115b1924f921f5811da98b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::scopeCheckoutWithoutAcceptance </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$query</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>scopeCheckoutWithoutAcceptance </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">$query</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>mixed </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Vincent Sposato <a href="#" onclick="location.href='mai'+'lto:'+'vin'+'ce'+'nt.'+'sp'+'osa'+'to'+'@gm'+'ai'+'l.c'+'om'; return false;">vince<span style="display: none;">.nosp@m.</span>nt.s<span style="display: none;">.nosp@m.</span>posat<span style="display: none;">.nosp@m.</span>o@gm<span style="display: none;">.nosp@m.</span>ail.c<span style="display: none;">.nosp@m.</span>om</a> </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>v1.0 </dd></dl>
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00158">158</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    {</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">return</span> $query-&gt;where(<span class="stringliteral">&#39;action_type&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, <span class="stringliteral">&#39;checkout&#39;</span>)</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                     -&gt;where(<span class="stringliteral">&#39;accepted_id&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, null);</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a38aa72844fb0f4977c7da3c12469c6bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::uploads </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00032">32</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\Asset&#39;</span>, <span class="stringliteral">&#39;asset_id&#39;</span>)</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                    -&gt;where(<span class="stringliteral">&#39;action_type&#39;</span>, <span class="charliteral">&#39;=&#39;</span>, <span class="stringliteral">&#39;uploaded&#39;</span>)</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                    -&gt;withTrashed();</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a90fc123790d23dc5c879e7cded3aba2c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::userlog </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00068">68</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> $this-&gt;belongsTo(<span class="stringliteral">&#39;\App\Models\User&#39;</span>, <span class="stringliteral">&#39;checkedout_to&#39;</span>)</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                    -&gt;withTrashed();</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a06e507a37aab66752c54637674637827"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::$dates = [ 'deleted_at' ]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00014">14</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac3260c0eb6b0e75cafe2d74186b44bad"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::$fillable = [ 'created_at', 'asset_type' ]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00018">18</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab6c30c15ebc9e6f9ce4f1adb7c2b3afa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::$table = 'asset_logs'</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00016">16</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8b35b3ed90ee0aff4e9d3f13c4e2a110"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Models\Actionlog::$timestamps = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_actionlog_8php_source.html#l00017">17</a> of file <a class="el" href="_actionlog_8php_source.html">Actionlog.php</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>snipe-it/app/Models/<a class="el" href="_actionlog_8php_source.html">Actionlog.php</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+<hr class="footer"/>
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <a target="_blank" class="btn btn-default btn-xs" href="http://docs.snipeitapp.com/">Installation Documentation</a>
+    <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/">Report a Bug</a>
+  </div>
+  <a target="_blank" href="http://snipeitapp.com">Snipe IT</a> is an open source
+  project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeyhead">@snipeyhead</a>.
+  <hr class="footer"/>
+  <div class="center">
+      This documentation generated by <a href="http://www.doxygen.org/index.html">
+      <img class="footer" src="doxygen.png" alt="doxygen" style="max-height: 17px;" />
+      </a> 1.8.11
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>

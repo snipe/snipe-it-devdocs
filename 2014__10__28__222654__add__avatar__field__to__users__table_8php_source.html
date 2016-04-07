@@ -1,0 +1,181 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>snipe-it/database/migrations/2014_10_28_222654_add_avatar_field_to_users_table.php Source File</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <script type="text/javascript" src="dynsections.js"></script>
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="essentials.css" rel="stylesheet" type="text/css"/>
+<link href="layout.css" rel="stylesheet" type="text/css"/>
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="blue.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header" class="sticky clearfix header-sm shadow-after-3">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Logo -->
+                    <span class="logo pull-left">
+                    <div>
+                        <h3 style="margin-bottom: -25px;"><i class="fa fa-laptop" style="color: #179BD7"></i> <a href="/index.html">Snipe-IT</a></h3>
+                        <br>Open Source Asset Management
+                    </div>
+                    </span>
+                    <!--
+                        Top Nav
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+                        <nav class="nav-main">
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li>
+                                    <a href="/features"> FEATURES </a>
+                                </li>
+                                <li>
+                                    <a href="/demo"> DEMO </a>
+                                </li>
+                                <li>
+                                    <a href="/download"> DOWNLOAD </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="http://docs.snipeitapp.com"> DOCUMENTATION </a>
+                                </li>
+                                <li>
+                                    <a href="/hosting"> HOSTED SOLUTION </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#"> NEWS </a>
+                                </li> -->
+                                <li>
+                                    <a href="/support"> SUPPORT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- /Top Nav -->
+        </div>
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" id="top" style="padding-top: 30px;">
+                        <div style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Intro</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b66c07863a82ce81f25be6cf6fc99407.html">snipe-it</a></li><li class="navelem"><a class="el" href="dir_d29525bcce76d2b359341b9b5a3c6d6c.html">database</a></li><li class="navelem"><a class="el" href="dir_34d7c60fc9aa1123933dbc2b865d9b8f.html">migrations</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">2014_10_28_222654_add_avatar_field_to_users_table.php</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="2014__10__28__222654__add__avatar__field__to__users__table_8php.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;&lt;?php</div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;use <a class="code" href="namespace_illuminate_1_1_database_1_1_migrations_1_1_migration.html">Illuminate\Database\Migrations\Migration</a>;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;use <a class="code" href="namespace_illuminate_1_1_database_1_1_schema_1_1_blueprint.html">Illuminate\Database\Schema\Blueprint</a>;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div><div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_add_avatar_field_to_users_table.html">    6</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_add_avatar_field_to_users_table.html">AddAvatarFieldToUsersTable</a> <span class="keyword">extends</span> Migration {</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_add_avatar_field_to_users_table.html#aa4f962775cea3c273ef56770cb82b987">   13</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_add_avatar_field_to_users_table.html#aa4f962775cea3c273ef56770cb82b987">up</a>()</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {   </div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        Schema::table(<span class="stringliteral">&#39;users&#39;</span>, <span class="keyword">function</span>(Blueprint <a class="code" href="public_2assets_2js_2plugins_2datatables_2extensions_2_scroller_2examples_2data_2ssp_8php.html#ae8876a14058f368335baccf35af4a22b">$table</a>) {     </div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            </div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            $table-&gt;string(<span class="stringliteral">&#39;avatar&#39;</span>)-&gt;nullable();</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        });</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_add_avatar_field_to_users_table.html#aa9147a95308ab10914b6855ff92a1409">   28</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">function</span> <a class="code" href="class_add_avatar_field_to_users_table.html#aa9147a95308ab10914b6855ff92a1409">down</a>()</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        Schema::table(<span class="stringliteral">&#39;users&#39;</span>, <span class="keyword">function</span>(Blueprint <a class="code" href="public_2assets_2js_2plugins_2datatables_2extensions_2_scroller_2examples_2data_2ssp_8php.html#ae8876a14058f368335baccf35af4a22b">$table</a>) {</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            $table-&gt;dropColumn(<span class="stringliteral">&#39;avatar&#39;</span>);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        });</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div><div class="ttc" id="namespace_illuminate_1_1_database_1_1_schema_1_1_blueprint_html"><div class="ttname"><a href="namespace_illuminate_1_1_database_1_1_schema_1_1_blueprint.html">Blueprint</a></div></div>
+<div class="ttc" id="public_2assets_2js_2plugins_2datatables_2extensions_2_scroller_2examples_2data_2ssp_8php_html_ae8876a14058f368335baccf35af4a22b"><div class="ttname"><a href="public_2assets_2js_2plugins_2datatables_2extensions_2_scroller_2examples_2data_2ssp_8php.html#ae8876a14058f368335baccf35af4a22b">$table</a></div><div class="ttdeci">$table</div><div class="ttdef"><b>Definition:</b> <a href="public_2assets_2js_2plugins_2datatables_2extensions_2_scroller_2examples_2data_2ssp_8php_source.html#l00022">ssp.php:22</a></div></div>
+<div class="ttc" id="class_add_avatar_field_to_users_table_html"><div class="ttname"><a href="class_add_avatar_field_to_users_table.html">AddAvatarFieldToUsersTable</a></div><div class="ttdef"><b>Definition:</b> <a href="2014__10__28__222654__add__avatar__field__to__users__table_8php_source.html#l00006">2014_10_28_222654_add_avatar_field_to_users_table.php:6</a></div></div>
+<div class="ttc" id="class_add_avatar_field_to_users_table_html_aa4f962775cea3c273ef56770cb82b987"><div class="ttname"><a href="class_add_avatar_field_to_users_table.html#aa4f962775cea3c273ef56770cb82b987">AddAvatarFieldToUsersTable\up</a></div><div class="ttdeci">up()</div><div class="ttdoc">Make changes to the table. </div><div class="ttdef"><b>Definition:</b> <a href="2014__10__28__222654__add__avatar__field__to__users__table_8php_source.html#l00013">2014_10_28_222654_add_avatar_field_to_users_table.php:13</a></div></div>
+<div class="ttc" id="namespace_illuminate_1_1_database_1_1_migrations_1_1_migration_html"><div class="ttname"><a href="namespace_illuminate_1_1_database_1_1_migrations_1_1_migration.html">Migration</a></div></div>
+<div class="ttc" id="class_add_avatar_field_to_users_table_html_aa9147a95308ab10914b6855ff92a1409"><div class="ttname"><a href="class_add_avatar_field_to_users_table.html#aa9147a95308ab10914b6855ff92a1409">AddAvatarFieldToUsersTable\down</a></div><div class="ttdeci">down()</div><div class="ttdoc">Revert the changes to the table. </div><div class="ttdef"><b>Definition:</b> <a href="2014__10__28__222654__add__avatar__field__to__users__table_8php_source.html#l00028">2014_10_28_222654_add_avatar_field_to_users_table.php:28</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+<hr class="footer"/>
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <a target="_blank" class="btn btn-default btn-xs" href="http://docs.snipeitapp.com/">Installation Documentation</a>
+    <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/">Report a Bug</a>
+  </div>
+  <a target="_blank" href="http://snipeitapp.com">Snipe IT</a> is an open source
+  project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeyhead">@snipeyhead</a>.
+  <hr class="footer"/>
+  <div class="center">
+      This documentation generated by <a href="http://www.doxygen.org/index.html">
+      <img class="footer" src="doxygen.png" alt="doxygen" style="max-height: 17px;" />
+      </a> 1.8.11
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>

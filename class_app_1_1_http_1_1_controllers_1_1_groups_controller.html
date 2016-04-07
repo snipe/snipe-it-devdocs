@@ -1,0 +1,378 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>App\Http\Controllers\GroupsController Class Reference</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="essentials.css" rel="stylesheet" type="text/css"/>
+<link href="layout.css" rel="stylesheet" type="text/css"/>
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="blue.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header" class="sticky clearfix header-sm shadow-after-3">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Logo -->
+                    <span class="logo pull-left">
+                    <div>
+                        <h3 style="margin-bottom: -25px;"><i class="fa fa-laptop" style="color: #179BD7"></i> <a href="/index.html">Snipe-IT</a></h3>
+                        <br>Open Source Asset Management
+                    </div>
+                    </span>
+                    <!--
+                        Top Nav
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+                        <nav class="nav-main">
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li>
+                                    <a href="https://snipeitapp.com/features"> FEATURES </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/demo"> DEMO </a>
+                                </li>
+                                <li>
+                                    <a href="/download"> DOWNLOAD </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="http://docs.snipeitapp.com"> DOCUMENTATION </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/hosting"> HOSTED SOLUTION </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#"> NEWS </a>
+                                </li> -->
+                                <li>
+                                    <a href="https://snipeitapp.com/support"> SUPPORT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- /Top Nav -->
+        </div>
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" id="top" style="padding-top: 30px;">
+                        <div style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Intro</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_http.html">Http</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_http_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_groups_controller.html">GroupsController</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="class_app_1_1_http_1_1_controllers_1_1_groups_controller-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">App\Http\Controllers\GroupsController Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for App\Http\Controllers\GroupsController:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_app_1_1_http_1_1_controllers_1_1_groups_controller.png" usemap="#App_5CHttp_5CControllers_5CGroupsController_map" alt=""/>
+  <map id="App_5CHttp_5CControllers_5CGroupsController_map" name="App\Http\Controllers\GroupsController_map">
+<area href="class_app_1_1_http_1_1_controllers_1_1_controller.html" alt="App\Http\Controllers\Controller" shape="rect" coords="0,56,228,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:acbcb0a59a102fa5f9959aeaa718747f7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_groups_controller.html#acbcb0a59a102fa5f9959aeaa718747f7">getIndex</a> ()</td></tr>
+<tr class="memdesc:acbcb0a59a102fa5f9959aeaa718747f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show a list of all the groups.  <a href="#acbcb0a59a102fa5f9959aeaa718747f7">More...</a><br /></td></tr>
+<tr class="separator:acbcb0a59a102fa5f9959aeaa718747f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e0b58a81b4beaa777aef93c380fcd61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_groups_controller.html#a4e0b58a81b4beaa777aef93c380fcd61">getCreate</a> ()</td></tr>
+<tr class="memdesc:a4e0b58a81b4beaa777aef93c380fcd61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group create.  <a href="#a4e0b58a81b4beaa777aef93c380fcd61">More...</a><br /></td></tr>
+<tr class="separator:a4e0b58a81b4beaa777aef93c380fcd61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd2d42998ba151695415c81e88049da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_groups_controller.html#a1dd2d42998ba151695415c81e88049da">postCreate</a> ()</td></tr>
+<tr class="memdesc:a1dd2d42998ba151695415c81e88049da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group create form processing.  <a href="#a1dd2d42998ba151695415c81e88049da">More...</a><br /></td></tr>
+<tr class="separator:a1dd2d42998ba151695415c81e88049da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac06ee3c2e2aa3b285bc14b0682493b49"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_groups_controller.html#ac06ee3c2e2aa3b285bc14b0682493b49">getEdit</a> ($id=null)</td></tr>
+<tr class="memdesc:ac06ee3c2e2aa3b285bc14b0682493b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group update.  <a href="#ac06ee3c2e2aa3b285bc14b0682493b49">More...</a><br /></td></tr>
+<tr class="separator:ac06ee3c2e2aa3b285bc14b0682493b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef16afcc1888515e92f8b5d00198a876"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_groups_controller.html#aef16afcc1888515e92f8b5d00198a876">postEdit</a> ($id=null)</td></tr>
+<tr class="memdesc:aef16afcc1888515e92f8b5d00198a876"><td class="mdescLeft">&#160;</td><td class="mdescRight">Group update form processing page.  <a href="#aef16afcc1888515e92f8b5d00198a876">More...</a><br /></td></tr>
+<tr class="separator:aef16afcc1888515e92f8b5d00198a876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d9c5591702429416e433509d9191e10"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_groups_controller.html#a6d9c5591702429416e433509d9191e10">getDelete</a> ($id=null)</td></tr>
+<tr class="memdesc:a6d9c5591702429416e433509d9191e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delete the given group.  <a href="#a6d9c5591702429416e433509d9191e10">More...</a><br /></td></tr>
+<tr class="separator:a6d9c5591702429416e433509d9191e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a336b8661dd8e834ad98121b78b6503f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_groups_controller.html#a336b8661dd8e834ad98121b78b6503f9">getDatatable</a> ($status=null)</td></tr>
+<tr class="separator:a336b8661dd8e834ad98121b78b6503f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_groups_controller_8php_source.html#l00013">13</a> of file <a class="el" href="_groups_controller_8php_source.html">GroupsController.php</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a4e0b58a81b4beaa777aef93c380fcd61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\GroupsController::getCreate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Group create. </p>
+<dl class="section return"><dt>Returns</dt><dd>View </dd></dl>
+
+<p>Definition at line <a class="el" href="_groups_controller_8php_source.html#l00031">31</a> of file <a class="el" href="_groups_controller_8php_source.html">GroupsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        $group = <span class="keyword">new</span> Group;</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="comment">// Get all the available permissions</span></div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        $permissions = config(<span class="stringliteral">&#39;permissions&#39;</span>);</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        $selectedPermissions = Input::old(<span class="stringliteral">&#39;permissions&#39;</span>, array());</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="comment">// Show the page</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> View::make(<span class="stringliteral">&#39;groups/edit&#39;</span>, compact(<span class="stringliteral">&#39;permissions&#39;</span>, <span class="stringliteral">&#39;selectedPermissions&#39;</span>))-&gt;with(<span class="stringliteral">&#39;group&#39;</span>, $group);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a336b8661dd8e834ad98121b78b6503f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\GroupsController::getDatatable </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$status</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_groups_controller_8php_source.html#l00143">143</a> of file <a class="el" href="_groups_controller_8php_source.html">GroupsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    {</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">if</span> (Input::has(<span class="stringliteral">&#39;offset&#39;</span>)) {</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            $offset = e(Input::get(<span class="stringliteral">&#39;offset&#39;</span>));</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            $offset = 0;</div><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        }</div><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">if</span> (Input::has(<span class="stringliteral">&#39;limit&#39;</span>)) {</div><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            $limit = e(Input::get(<span class="stringliteral">&#39;limit&#39;</span>));</div><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            $limit = 50;</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        }</div><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">if</span> (Input::get(<span class="stringliteral">&#39;sort&#39;</span>)==<span class="stringliteral">&#39;name&#39;</span>) {</div><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            $sort = <span class="stringliteral">&#39;first_name&#39;</span>;</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            $sort = e(Input::get(<span class="stringliteral">&#39;sort&#39;</span>));</div><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        }</div><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="comment">// Grab all the groups</span></div><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        $groups = Group::with(<span class="stringliteral">&#39;users&#39;</span>)-&gt;orderBy(<span class="stringliteral">&#39;name&#39;</span>, <span class="stringliteral">&#39;ASC&#39;</span>);</div><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="comment">//$users = Company::scopeCompanyables($users);</span></div><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">if</span> (Input::has(<span class="stringliteral">&#39;search&#39;</span>)) {</div><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            $groups = $users-&gt;TextSearch(e(Input::get(<span class="stringliteral">&#39;search&#39;</span>)));</div><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;         $order = Input::get(<span class="stringliteral">&#39;order&#39;</span>) === <span class="stringliteral">&#39;asc&#39;</span> ? <span class="stringliteral">&#39;asc&#39;</span> : <span class="stringliteral">&#39;desc&#39;</span>;</div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        $allowed_columns =</div><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;         [</div><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;           <span class="stringliteral">&#39;name&#39;</span>,<span class="stringliteral">&#39;created_at&#39;</span></div><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;         ];</div><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        $sort = in_array($sort, $allowed_columns) ? $sort : <span class="stringliteral">&#39;name&#39;</span>;</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        $groups = $groups-&gt;orderBy($sort, $order);</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        $groupsCount = $groups-&gt;count();</div><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        $groups = $groups-&gt;skip($offset)-&gt;take($limit)-&gt;get();</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        $rows = array();</div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">foreach</span> ($groups as $group) {</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            $group_names = <span class="stringliteral">&#39;&#39;</span>;</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            $inout = <span class="stringliteral">&#39;&#39;</span>;</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            $actions = <span class="stringliteral">&#39;&lt;nobr&gt;&#39;</span>;</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            $actions .= <span class="stringliteral">&#39;&lt;a href=&quot;&#39;</span> . route(<span class="stringliteral">&#39;update/group&#39;</span>, $group-&gt;id) . <span class="stringliteral">&#39;&quot; class=&quot;btn btn-warning btn-sm&quot;&gt;&lt;i class=&quot;fa fa-pencil icon-white&quot;&gt;&lt;/i&gt;&lt;/a&gt; &#39;</span>;</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">if</span> (!config(<span class="stringliteral">&#39;app.lock_passwords&#39;</span>)) {</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                  $actions .= <span class="stringliteral">&#39;&lt;a data-html=&quot;false&quot; class=&quot;btn delete-asset btn-danger btn-sm&quot; data-toggle=&quot;modal&quot; href=&quot;&#39;</span> . route(<span class="stringliteral">&#39;delete/group&#39;</span>, $group-&gt;id) . <span class="stringliteral">&#39;&quot; data-content=&quot;&#39;</span>.Lang::get(<span class="stringliteral">&#39;admin/groups/message.delete.confirm&#39;</span>).<span class="stringliteral">&#39;&quot; data-title=&quot;Delete &#39;</span> . htmlspecialchars($group-&gt;name) . <span class="stringliteral">&#39;?&quot; onClick=&quot;return false;&quot;&gt;&lt;i class=&quot;fa fa-trash icon-white&quot;&gt;&lt;/i&gt;&lt;/a&gt; &#39;</span>;</div><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                $actions .= <span class="stringliteral">&#39; &lt;span class=&quot;btn delete-asset btn-danger btn-sm disabled&quot;&gt;&lt;i class=&quot;fa fa-trash icon-white&quot;&gt;&lt;/i&gt;&lt;/span&gt;&#39;</span>;</div><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            }</div><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;</div><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            $actions .= <span class="stringliteral">&#39;&lt;/nobr&gt;&#39;</span>;</div><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            $rows[] = array(</div><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                <span class="stringliteral">&#39;id&#39;</span>         =&gt; $group-&gt;id,</div><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                <span class="stringliteral">&#39;name&#39;</span>        =&gt; $group-&gt;name,</div><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                <span class="stringliteral">&#39;users&#39;</span>         =&gt; $group-&gt;users-&gt;count(),</div><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                <span class="stringliteral">&#39;created_at&#39;</span>        =&gt; $group-&gt;created_at-&gt;format(<span class="stringliteral">&#39;Y-m-d&#39;</span>),</div><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                <span class="stringliteral">&#39;actions&#39;</span>       =&gt; ($actions) ? $actions : <span class="stringliteral">&#39;&#39;</span>,</div><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            );</div><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        }</div><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        $data = array(<span class="stringliteral">&#39;total&#39;</span>=&gt;$groupsCount, <span class="stringliteral">&#39;rows&#39;</span>=&gt;$rows);</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">return</span> $data;</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6d9c5591702429416e433509d9191e10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\GroupsController::getDelete </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$id</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Delete the given group. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Redirect </dd></dl>
+
+<p>Definition at line <a class="el" href="_groups_controller_8php_source.html#l00120">120</a> of file <a class="el" href="_groups_controller_8php_source.html">GroupsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">if</span> (!config(<span class="stringliteral">&#39;app.lock_passwords&#39;</span>)) {</div><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">try</span> {</div><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <span class="comment">// Get group information</span></div><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                $group = Sentry::getGroupProvider()-&gt;findById($id);</div><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="comment">// Delete the group</span></div><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                $group-&gt;delete();</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <span class="comment">// Redirect to the group management page</span></div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&#39;groups&#39;</span>)-&gt;with(<span class="stringliteral">&#39;success&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/groups/message.success.delete&#39;</span>));</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            } <span class="keywordflow">catch</span> (GroupNotFoundException $e) {</div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                <span class="comment">// Redirect to the group management page</span></div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&#39;groups&#39;</span>)-&gt;with(<span class="stringliteral">&#39;error&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/groups/message.group_not_found&#39;</span>, compact(<span class="stringliteral">&#39;id&#39;</span>)));</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            }</div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&#39;groups&#39;</span>)-&gt;with(<span class="stringliteral">&#39;error&#39;</span>, Lang::get(<span class="stringliteral">&#39;general.feature_disabled&#39;</span>));</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac06ee3c2e2aa3b285bc14b0682493b49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\GroupsController::getEdit </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$id</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Group update. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>View </dd></dl>
+
+<p>Definition at line <a class="el" href="_groups_controller_8php_source.html#l00073">73</a> of file <a class="el" href="_groups_controller_8php_source.html">GroupsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        $group = Group::find($id);</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        $group-&gt;name = e(Input::get(<span class="stringliteral">&#39;name&#39;</span>));</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        $group-&gt;permissions = json_decode($group-&gt;permissions, <span class="keyword">true</span>);</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        $permissions = config(<span class="stringliteral">&#39;permissions&#39;</span>);</div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <span class="comment">// Show the page</span></div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> View::make(<span class="stringliteral">&#39;groups/edit&#39;</span>, compact(<span class="stringliteral">&#39;group&#39;</span>, <span class="stringliteral">&#39;permissions&#39;</span>,<span class="stringliteral">&#39;allpermissions&#39;</span>));</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acbcb0a59a102fa5f9959aeaa718747f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\GroupsController::getIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show a list of all the groups. </p>
+<dl class="section return"><dt>Returns</dt><dd>View </dd></dl>
+
+<p>Definition at line <a class="el" href="_groups_controller_8php_source.html#l00020">20</a> of file <a class="el" href="_groups_controller_8php_source.html">GroupsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="comment">// Show the page</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> View::make(<span class="stringliteral">&#39;groups/index&#39;</span>, compact(<span class="stringliteral">&#39;groups&#39;</span>));</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1dd2d42998ba151695415c81e88049da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\GroupsController::postCreate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Group create form processing. </p>
+<dl class="section return"><dt>Returns</dt><dd>Redirect </dd></dl>
+
+<p>Definition at line <a class="el" href="_groups_controller_8php_source.html#l00049">49</a> of file <a class="el" href="_groups_controller_8php_source.html">GroupsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">// create a new group instance</span></div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        $group = <span class="keyword">new</span> Group();</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">// Update the consumable data</span></div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        $group-&gt;name = e(Input::get(<span class="stringliteral">&#39;name&#39;</span>));</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="comment">// Was the consumable created?</span></div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">if</span> ($group-&gt;save()) {</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="comment">// Redirect to the new consumable  page</span></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&quot;admin/groups&quot;</span>)-&gt;with(<span class="stringliteral">&#39;success&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/groups/message.create.success&#39;</span>));</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> Redirect::back()-&gt;withInput()-&gt;withErrors($group-&gt;getErrors());</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aef16afcc1888515e92f8b5d00198a876"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\GroupsController::postEdit </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$id</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Group update form processing page. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Redirect </dd></dl>
+
+<p>Definition at line <a class="el" href="_groups_controller_8php_source.html#l00090">90</a> of file <a class="el" href="_groups_controller_8php_source.html">GroupsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    {</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">if</span> (!$group = Group::find($id)) {</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&#39;groups&#39;</span>)-&gt;with(<span class="stringliteral">&#39;error&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/groups/message.group_not_found&#39;</span>, compact(<span class="stringliteral">&#39;id&#39;</span>)));</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        $group-&gt;name = e(Input::get(<span class="stringliteral">&#39;name&#39;</span>));</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">if</span> (!config(<span class="stringliteral">&#39;app.lock_passwords&#39;</span>)) {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;          <span class="comment">// Was the consumable created?</span></div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">if</span> ($group-&gt;save()) {</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;              <span class="comment">// Redirect to the new consumable  page</span></div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                <span class="keywordflow">return</span> Redirect::to(<span class="stringliteral">&quot;admin/groups&quot;</span>)-&gt;with(<span class="stringliteral">&#39;success&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/groups/message.create.success&#39;</span>));</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            }</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordflow">return</span> Redirect::back()-&gt;withInput()-&gt;withErrors($group-&gt;getErrors());</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&#39;update/group&#39;</span>, $id)-&gt;withInput()-&gt;with(<span class="stringliteral">&#39;error&#39;</span>, <span class="stringliteral">&#39;Denied! Editing groups is not allowed in the demo.&#39;</span>);</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        }</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>snipe-it/app/Http/Controllers/<a class="el" href="_groups_controller_8php_source.html">GroupsController.php</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+<hr class="footer"/>
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <a target="_blank" class="btn btn-default btn-xs" href="http://docs.snipeitapp.com/">Installation Documentation</a>
+    <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/">Report a Bug</a>
+  </div>
+  <a target="_blank" href="http://snipeitapp.com">Snipe IT</a> is an open source
+  project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeyhead">@snipeyhead</a>.
+  <hr class="footer"/>
+  <div class="center">
+      This documentation generated by <a href="http://www.doxygen.org/index.html">
+      <img class="footer" src="doxygen.png" alt="doxygen" style="max-height: 17px;" />
+      </a> 1.8.11
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body, table, div, p, dl, table.directory {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+#projectlogo img {
+    max-height: 55px;
+}
+
+.tabs, .tabs2, .tabs3 {
+    background-image: none;
+    background-color: #179BD7;
+    color: white;
+}
+
+.tablist li, .tablist a, .tablist {
+    background-image: none;
+    background-color: #179BD7;
+    color: white;
+}
+
+.tablist li.current a {
+    background-image: none;
+    background-color: #006fa3;
+    color: white;
+    border-radius: 0px;
+}
+
+.div.headertitle {
+    padding: 0px;
+}
+
+.page-header {
+     margin: 0px;
+}
+
+.nav-justified>li>a:hover, .nav-pills>li>a    {
+    color: #1F262D;
+}
+
+.tablist a:hover {
+    background-image: none;
+    background-color: #006fa3;
+    color: white;
+    border-radius: 0px;
+}
+
+.panel, .panel-default {
+    border: 0px;
+}
+
+.memproto, dl.reflist dt {
+    background-image: none;
+}
+
+table.classindex {
+    white-space: word;
+}
+
+#MSearchBox .right {
+    background: none;
+}
+
+#MSearchBox .left {
+    background: none;
+}
+
+#MSearchSelect {
+    visibility: hidden;
+}
+
+#MSearchField {
+    font-size: 14px;
+}
+
+#MSearchResultsWindow {
+    z-index: 5000px !important;
+}
+
+h1 {
+    font-size: 22px;
+    text-decoration: underline solid grey;
+}
+
+h2 {
+    font-size: 20px;
+}

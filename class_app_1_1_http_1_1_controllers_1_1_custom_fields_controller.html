@@ -1,0 +1,467 @@
+<!-- HTML header for doxygen 1.8.8-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- mobile settings -->
+        <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+        <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+        <!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+        <meta name="generator" content="Doxygen 1.8.11"/>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <title>App\Http\Controllers\CustomFieldsController Class Reference</title>
+        <!--<link href="tabs.css" rel="stylesheet" type="text/css"/>-->
+        <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="doxy-boot.js"></script>
+        <link href="doxygen.css" rel="stylesheet" type="text/css" />
+        <link href="essentials.css" rel="stylesheet" type="text/css"/>
+<link href="layout.css" rel="stylesheet" type="text/css"/>
+<link href="customdoxygen.css" rel="stylesheet" type="text/css"/>
+<link href="blue.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header" class="sticky clearfix header-sm shadow-after-3">
+            <!-- TOP NAV -->
+            <header id="topNav">
+                <div class="container">
+                    <!-- Mobile Menu Button -->
+                    <button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <!-- Logo -->
+                    <span class="logo pull-left">
+                    <div>
+                        <h3 style="margin-bottom: -25px;"><i class="fa fa-laptop" style="color: #179BD7"></i> <a href="/index.html">Snipe-IT</a></h3>
+                        <br>Open Source Asset Management
+                    </div>
+                    </span>
+                    <!--
+                        Top Nav
+                        AVAILABLE CLASSES:
+                        submenu-dark = dark sub menu
+                    -->
+                    <div class="navbar-collapse pull-right nav-main-collapse collapse">
+                        <nav class="nav-main">
+                            <ul id="topMain" class="nav nav-pills nav-main">
+                                <li>
+                                    <a href="https://snipeitapp.com/features"> FEATURES </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/demo"> DEMO </a>
+                                </li>
+                                <li>
+                                    <a href="/download"> DOWNLOAD </a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="http://docs.snipeitapp.com"> DOCUMENTATION </a>
+                                </li>
+                                <li>
+                                    <a href="https://snipeitapp.com/hosting"> HOSTED SOLUTION </a>
+                                </li>
+                                <!-- <li>
+                                    <a href="#"> NEWS </a>
+                                </li> -->
+                                <li>
+                                    <a href="https://snipeitapp.com/support"> SUPPORT </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <!-- /Top Nav -->
+        </div>
+            <div class="content" id="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12" id="top" style="padding-top: 30px;">
+                        <div style="padding-bottom: 15px;">
+                            <div style="margin-bottom: 15px;">
+<!-- end header part -->
+<!-- Generated by Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Intro</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="namespaces.html"><span>Namespaces</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Search" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
+      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Class&#160;Members</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_app.html">App</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_http.html">Http</a></li><li class="navelem"><a class="el" href="namespace_app_1_1_http_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html">CustomFieldsController</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller-members.html">List of all members</a>  </div>
+  <div class="headertitle">
+<div class="title">App\Http\Controllers\CustomFieldsController Class Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for App\Http\Controllers\CustomFieldsController:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.png" usemap="#App_5CHttp_5CControllers_5CCustomFieldsController_map" alt=""/>
+  <map id="App_5CHttp_5CControllers_5CCustomFieldsController_map" name="App\Http\Controllers\CustomFieldsController_map">
+<area href="class_app_1_1_http_1_1_controllers_1_1_controller.html" alt="App\Http\Controllers\Controller" shape="rect" coords="0,56,262,80"/>
+</map>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ad6b446f2de736f404c4f5d7c7e038eaa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#ad6b446f2de736f404c4f5d7c7e038eaa">index</a> ()</td></tr>
+<tr class="memdesc:ad6b446f2de736f404c4f5d7c7e038eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display a listing of the resource.  <a href="#ad6b446f2de736f404c4f5d7c7e038eaa">More...</a><br /></td></tr>
+<tr class="separator:ad6b446f2de736f404c4f5d7c7e038eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace607db0c31a0a47053540922cadb69b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#ace607db0c31a0a47053540922cadb69b">create</a> ()</td></tr>
+<tr class="memdesc:ace607db0c31a0a47053540922cadb69b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the form for creating a new resource.  <a href="#ace607db0c31a0a47053540922cadb69b">More...</a><br /></td></tr>
+<tr class="separator:ace607db0c31a0a47053540922cadb69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a91fe056997f2cff8c617e9da3ac0b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#a6a91fe056997f2cff8c617e9da3ac0b5">store</a> ()</td></tr>
+<tr class="memdesc:a6a91fe056997f2cff8c617e9da3ac0b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store a newly created resource in storage.  <a href="#a6a91fe056997f2cff8c617e9da3ac0b5">More...</a><br /></td></tr>
+<tr class="separator:a6a91fe056997f2cff8c617e9da3ac0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5da3a4c7a756c0ae3865dccd2efb2ef7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#a5da3a4c7a756c0ae3865dccd2efb2ef7">associate</a> ($id)</td></tr>
+<tr class="separator:a5da3a4c7a756c0ae3865dccd2efb2ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca30449a7fe6d21b53e58dc62e02c04"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#a4ca30449a7fe6d21b53e58dc62e02c04">createField</a> ()</td></tr>
+<tr class="separator:a4ca30449a7fe6d21b53e58dc62e02c04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a66c9c3a72912e5610ff570da29efe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#a80a66c9c3a72912e5610ff570da29efe">storeField</a> ()</td></tr>
+<tr class="separator:a80a66c9c3a72912e5610ff570da29efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad025b1d9b4454ae6be8125681b6d2e4a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#ad025b1d9b4454ae6be8125681b6d2e4a">deleteField</a> ($field_id)</td></tr>
+<tr class="separator:ad025b1d9b4454ae6be8125681b6d2e4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a650710551496e4dc194dff7c556cbf5f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#a650710551496e4dc194dff7c556cbf5f">show</a> ($id)</td></tr>
+<tr class="memdesc:a650710551496e4dc194dff7c556cbf5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the specified resource.  <a href="#a650710551496e4dc194dff7c556cbf5f">More...</a><br /></td></tr>
+<tr class="separator:a650710551496e4dc194dff7c556cbf5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42995daba21ed783fa8600bc979f7c9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#a42995daba21ed783fa8600bc979f7c9a">edit</a> ($id)</td></tr>
+<tr class="memdesc:a42995daba21ed783fa8600bc979f7c9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show the form for editing the specified resource.  <a href="#a42995daba21ed783fa8600bc979f7c9a">More...</a><br /></td></tr>
+<tr class="separator:a42995daba21ed783fa8600bc979f7c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac2e955519d0ee8bb89785085546c97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#a3ac2e955519d0ee8bb89785085546c97">update</a> ($id)</td></tr>
+<tr class="memdesc:a3ac2e955519d0ee8bb89785085546c97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the specified resource in storage.  <a href="#a3ac2e955519d0ee8bb89785085546c97">More...</a><br /></td></tr>
+<tr class="separator:a3ac2e955519d0ee8bb89785085546c97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bbcadba3e4ebed549ab56387d146ce5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_app_1_1_http_1_1_controllers_1_1_custom_fields_controller.html#a1bbcadba3e4ebed549ab56387d146ce5">destroy</a> ($id)</td></tr>
+<tr class="memdesc:a1bbcadba3e4ebed549ab56387d146ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the specified resource from storage.  <a href="#a1bbcadba3e4ebed549ab56387d146ce5">More...</a><br /></td></tr>
+<tr class="separator:a1bbcadba3e4ebed549ab56387d146ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00014">14</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a5da3a4c7a756c0ae3865dccd2efb2ef7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::associate </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00063">63</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    {</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        $set = CustomFieldset::find($id);</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">foreach</span> ($set-&gt;fields as $field) {</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">if</span> ($field-&gt;id == Input::get(<span class="stringliteral">&#39;field_id&#39;</span>)) {</div><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&quot;admin.custom_fields.show&quot;</span>, [$id])-&gt;withInput()-&gt;withErrors([<span class="stringliteral">&#39;field_id&#39;</span> =&gt; Lang::get(<span class="stringliteral">&#39;admin/custom_fields/message.field.already_added&#39;</span>)]);</div><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            }</div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        }</div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        $results=$set-&gt;fields()-&gt;attach(Input::get(<span class="stringliteral">&#39;field_id&#39;</span>), [<span class="stringliteral">&quot;required&quot;</span> =&gt; (Input::get(<span class="stringliteral">&#39;required&#39;</span>) == <span class="stringliteral">&quot;on&quot;</span>),<span class="stringliteral">&quot;order&quot;</span> =&gt; Input::get(<span class="stringliteral">&#39;order&#39;</span>)]);</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&quot;admin.custom_fields.show&quot;</span>, [$id])-&gt;with(<span class="stringliteral">&quot;success&quot;</span>, Lang::get(<span class="stringliteral">&#39;admin/custom_fields/message.field.create.assoc_success&#39;</span>));</div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ace607db0c31a0a47053540922cadb69b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::create </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show the form for creating a new resource. </p>
+<dl class="section return"><dt>Returns</dt><dd>Response </dd></dl>
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00038">38</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="comment">//</span></div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> View::make(<span class="stringliteral">&quot;custom_fields.create&quot;</span>);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4ca30449a7fe6d21b53e58dc62e02c04"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::createField </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00079">79</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> View::make(<span class="stringliteral">&quot;custom_fields.create_field&quot;</span>);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad025b1d9b4454ae6be8125681b6d2e4a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::deleteField </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$field_id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00109">109</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        $field=CustomField::find($field_id);</div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">if</span> ($field-&gt;fieldset-&gt;count()&gt;0) {</div><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <span class="keywordflow">return</span> Redirect::back()-&gt;withErrors([<span class="stringliteral">&#39;message&#39;</span> =&gt; <span class="stringliteral">&quot;Field is in-use&quot;</span>]);</div><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            $field-&gt;delete();</div><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&quot;admin.custom_fields.index&quot;</span>)-&gt;with(<span class="stringliteral">&quot;success&quot;</span>, Lang::get(<span class="stringliteral">&#39;admin/custom_fields/message.field.delete.success&#39;</span>));</div><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        }</div><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1bbcadba3e4ebed549ab56387d146ce5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::destroy </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove the specified resource from storage. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Response </dd></dl>
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00182">182</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    {</div><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="comment">//</span></div><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        $fieldset=CustomFieldset::find($id);</div><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        $models = AssetModel::where(<span class="stringliteral">&quot;fieldset_id&quot;</span>, <span class="stringliteral">&quot;=&quot;</span>, $id);</div><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordflow">if</span> ($models-&gt;count()==0) {</div><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            $fieldset-&gt;delete();</div><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&quot;admin.custom_fields.index&quot;</span>)-&gt;with(<span class="stringliteral">&quot;success&quot;</span>, Lang::get(<span class="stringliteral">&#39;admin/custom_fields/message.fieldset.delete.success&#39;</span>));</div><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&quot;admin.custom_fields.index&quot;</span>)-&gt;with(<span class="stringliteral">&quot;error&quot;</span>, Lang::get(<span class="stringliteral">&#39;admin/custom_fields/message.fieldset.delete.in_use&#39;</span>)); <span class="comment">//-&gt;with(&quot;models&quot;,$models);</span></div><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        }</div><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a42995daba21ed783fa8600bc979f7c9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::edit </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show the form for editing the specified resource. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Response </dd></dl>
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00158">158</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    {</div><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="comment">//</span></div><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad6b446f2de736f404c4f5d7c7e038eaa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::index </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Display a listing of the resource. </p>
+<dl class="section return"><dt>Returns</dt><dd>Response </dd></dl>
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00022">22</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="comment">//</span></div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        $fieldsets=CustomFieldset::with(<span class="stringliteral">&quot;fields&quot;</span>, <span class="stringliteral">&quot;models&quot;</span>)-&gt;get();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="comment">//$fieldsets=CustomFieldset::all();</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        $fields=CustomField::with(<span class="stringliteral">&quot;fieldset&quot;</span>)-&gt;get();</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="comment">//$fields=CustomField::all();</span></div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> View::make(<span class="stringliteral">&quot;custom_fields.index&quot;</span>)-&gt;with(<span class="stringliteral">&quot;custom_fieldsets&quot;</span>, $fieldsets)-&gt;with(<span class="stringliteral">&quot;custom_fields&quot;</span>, $fields);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a650710551496e4dc194dff7c556cbf5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::show </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Display the specified resource. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Response </dd></dl>
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00127">127</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    {</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="comment">//$id=$parameters[0];</span></div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        $cfset=CustomFieldset::find($id);</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="comment">//print_r($parameters);</span></div><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="comment">//</span></div><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        $custom_fields_list=[<span class="stringliteral">&quot;&quot;</span> =&gt; <span class="stringliteral">&quot;Add New Field to Fieldset&quot;</span>] + CustomField::lists(<span class="stringliteral">&quot;name&quot;</span>, <span class="stringliteral">&quot;id&quot;</span>)-&gt;toArray();</div><div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="comment">// print_r($custom_fields_list);</span></div><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        $maxid=0;</div><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">foreach</span> ($cfset-&gt;fields as $field) {</div><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            <span class="comment">// print &quot;Looking for: &quot;.$field-&gt;id;</span></div><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            <span class="keywordflow">if</span> ($field-&gt;pivot-&gt;order &gt; $maxid) {</div><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                $maxid=$field-&gt;pivot-&gt;order;</div><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            }</div><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <span class="keywordflow">if</span> (isset($custom_fields_list[$field-&gt;id])) {</div><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                <span class="comment">// print &quot;Found &quot;.$field-&gt;id.&quot;, so removing it.&lt;br&gt;&quot;;</span></div><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                unset($custom_fields_list[$field-&gt;id]);</div><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            }</div><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        }</div><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">return</span> View::make(<span class="stringliteral">&quot;custom_fields.show&quot;</span>)-&gt;with(<span class="stringliteral">&quot;custom_fieldset&quot;</span>, $cfset)-&gt;with(<span class="stringliteral">&quot;maxid&quot;</span>, $maxid+1)-&gt;with(<span class="stringliteral">&quot;custom_fields_list&quot;</span>, $custom_fields_list);</div><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6a91fe056997f2cff8c617e9da3ac0b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::store </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Store a newly created resource in storage. </p>
+<dl class="section return"><dt>Returns</dt><dd>Response </dd></dl>
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00050">50</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">//</span></div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        $cfset=<span class="keyword">new</span> CustomFieldset([<span class="stringliteral">&quot;name&quot;</span> =&gt; Input::get(<span class="stringliteral">&quot;name&quot;</span>),<span class="stringliteral">&quot;user_id&quot;</span> =&gt; Auth::user()-&gt;<span class="keywordtype">id</span>]);</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        $validator=Validator::make(Input::all(), $cfset-&gt;rules);</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">if</span> ($validator-&gt;passes()) {</div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            $cfset-&gt;save();</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&quot;admin.custom_fields.show&quot;</span>, [$cfset-&gt;id])-&gt;with(<span class="stringliteral">&#39;success&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/custom_fields/message.fieldset.create.success&#39;</span>));</div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">return</span> Redirect::back()-&gt;withInput()-&gt;withErrors($validator);</div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a80a66c9c3a72912e5610ff570da29efe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::storeField </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00084">84</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        $field=<span class="keyword">new</span> CustomField([<span class="stringliteral">&quot;name&quot;</span> =&gt; Input::get(<span class="stringliteral">&quot;name&quot;</span>),<span class="stringliteral">&quot;element&quot;</span> =&gt; Input::get(<span class="stringliteral">&quot;element&quot;</span>),<span class="stringliteral">&quot;user_id&quot;</span> =&gt; Auth::user()-&gt;<span class="keywordtype">id</span>]);</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">if</span> (!in_array(Input::get(<span class="stringliteral">&#39;format&#39;</span>), array_keys(<a class="code" href="class_app_1_1_models_1_1_custom_field.html#a5b299fb4bd07bfeca4756985e26e8983">CustomField::$PredefinedFormats</a>))) {</div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            $field-&gt;format=Input::get(<span class="stringliteral">&quot;custom_format&quot;</span>);</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            $field-&gt;format=Input::get(<span class="stringliteral">&#39;format&#39;</span>);</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        $validator=Validator::make(Input::all(), $field-&gt;rules);</div><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">if</span> ($validator-&gt;passes()) {</div><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            $results=$field-&gt;save();</div><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="comment">//return &quot;postCreateField: $results&quot;;</span></div><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <span class="keywordflow">if</span> ($results) {</div><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                <span class="keywordflow">return</span> Redirect::route(<span class="stringliteral">&quot;admin.custom_fields.index&quot;</span>)-&gt;with(<span class="stringliteral">&quot;success&quot;</span>, Lang::get(<span class="stringliteral">&#39;admin/custom_fields/message.field.create.success&#39;</span>));</div><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                <span class="keywordflow">return</span> Redirect::back()-&gt;withInput()-&gt;with(<span class="stringliteral">&#39;error&#39;</span>, Lang::get(<span class="stringliteral">&#39;admin/custom_fields/message.field.create.error&#39;</span>));</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            }</div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        } <span class="keywordflow">else</span> {</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">return</span> Redirect::back()-&gt;withInput()-&gt;withErrors($validator);</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        }</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div><div class="ttc" id="class_app_1_1_models_1_1_custom_field_html_a5b299fb4bd07bfeca4756985e26e8983"><div class="ttname"><a href="class_app_1_1_models_1_1_custom_field.html#a5b299fb4bd07bfeca4756985e26e8983">App\Models\CustomField\$PredefinedFormats</a></div><div class="ttdeci">static $PredefinedFormats</div><div class="ttdef"><b>Definition:</b> <a href="_custom_field_8php_source.html#l00013">CustomField.php:13</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3ac2e955519d0ee8bb89785085546c97"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">App\Http\Controllers\CustomFieldsController::update </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Update the specified resource in storage. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramtype">int</td><td class="paramname">$id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Response </dd></dl>
+
+<p>Definition at line <a class="el" href="_custom_fields_controller_8php_source.html#l00170">170</a> of file <a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    {</div><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="comment">//</span></div><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div></div><!-- fragment -->
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>snipe-it/app/Http/Controllers/<a class="el" href="_custom_fields_controller_8php_source.html">CustomFieldsController.php</a></li>
+</ul>
+</div><!-- contents -->
+<!-- HTML footer for doxygen 1.8.8-->
+<!-- start footer part -->
+</div>
+</div>
+</div>
+<hr class="footer"/>
+<footer class="main-footer">
+  <div class="pull-right hidden-xs">
+    <a target="_blank" class="btn btn-default btn-xs" href="http://docs.snipeitapp.com/">Installation Documentation</a>
+    <a target="_blank" class="btn btn-default btn-xs" href="https://snipeitapp.com/support/">Report a Bug</a>
+  </div>
+  <a target="_blank" href="http://snipeitapp.com">Snipe IT</a> is an open source
+  project, made with <i class="fa fa-heart" style="color: #a94442; font-size: 10px"></i> by <a href="https://twitter.com/snipeyhead">@snipeyhead</a>.
+  <hr class="footer"/>
+  <div class="center">
+      This documentation generated by <a href="http://www.doxygen.org/index.html">
+      <img class="footer" src="doxygen.png" alt="doxygen" style="max-height: 17px;" />
+      </a> 1.8.11
+  </div>
+</footer>
+</div>
+</div>
+</body>
+</html>
