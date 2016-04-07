@@ -9,7 +9,9 @@
         <tab type="hierarchy" visible="yes" title="" intro=""/>
         <tab type="classmembers" visible="yes" title="" intro=""/>
     </tab>
-    <tab type="pages" visible="yes" title="" intro="Pages"/>
-    <tab type="files" visible="yes" title="Files Poop"/>
+    <tab type="modules" visible="yes" title="" intro=""/>
+    <tab type="files" visible="yes" title="Files"/>
+    <tab type="examples" visible="yes" title="" intro=""/>
+    <tab type="pages" visible="yes" title="Misc" intro=""/>
   </navindex>
 </doxygenlayout>
