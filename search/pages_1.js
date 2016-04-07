@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['todo_20list',['Todo List',['../todo.html',1,'']]]
+  ['snipe_2dit_20code_20documentation',['Snipe-IT Code Documentation',['../index.html',1,'']]]
 ];
