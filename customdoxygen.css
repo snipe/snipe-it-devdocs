@@ -390,10 +390,15 @@ body, table, div, p, dl, table.directory {
     border-radius: 0px;
 }
 
-.tablist a:hover {
+.tablist a {
     background-image: none;
-    background-color: #006fa3;
-    color: white;
+    color: white !important;
+    border-radius: 0px;
+}
+
+.nav-justified>li>a:hover {
+    background-image: none;
+    color: #006fa3 !important;
     border-radius: 0px;
 }
 
@@ -439,5 +444,5 @@ h2 {
 }
 
 hr {
-    
+
 }
