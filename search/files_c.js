@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['macroserviceprovider_2ephp',['MacroServiceProvider.php',['../_macro_service_provider_8php.html',1,'']]],
-  ['mail_2ephp',['mail.php',['../mail_8php.html',1,'']]],
-  ['manufacturer_2ephp',['Manufacturer.php',['../_manufacturer_8php.html',1,'']]],
-  ['manufacturerscontroller_2ephp',['ManufacturersController.php',['../_manufacturers_controller_8php.html',1,'']]]
+  ['nosniffguard_2ephp',['NosniffGuard.php',['../_nosniff_guard_8php.html',1,'']]]
 ];

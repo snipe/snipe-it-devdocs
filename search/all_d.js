@@ -1,10 +1,9 @@
 var searchData=
 [
   ['lar_5fver',['lar_ver',['../class_app_1_1_models_1_1_setting.html#ad0733dadad28a0a2fa2db9290ab57b19',1,'App::Models::Setting']]],
-  ['laravel_2dbackup_2ephp',['laravel-backup.php',['../laravel-backup_8php.html',1,'']]],
   ['ldap',['ldap',['../class_app_1_1_http_1_1_controllers_1_1_auth_1_1_auth_controller.html#a72ae26b17d19c370df7261b242619fe9',1,'App::Http::Controllers::Auth::AuthController']]],
-  ['license',['license',['../class_app_1_1_models_1_1_license_seat.html#ae61212ea9e8761fa014ce106da510ea7',1,'App::Models::LicenseSeat']]],
   ['license',['License',['../class_app_1_1_models_1_1_license.html',1,'App::Models']]],
+  ['license',['license',['../class_app_1_1_models_1_1_license_seat.html#ae61212ea9e8761fa014ce106da510ea7',1,'App::Models::LicenseSeat']]],
   ['license_2ephp',['License.php',['../_license_8php.html',1,'']]],
   ['licenseimportcommand',['LicenseImportCommand',['../class_app_1_1_console_1_1_commands_1_1_license_import_command.html',1,'App::Console::Commands']]],
   ['licenseimportcommand_2ephp',['LicenseImportCommand.php',['../_license_import_command_8php.html',1,'']]],

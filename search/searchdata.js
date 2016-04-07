@@ -3,9 +3,9 @@ var indexSectionsWithContent =
   0: "$_abcdefghijklmnpqrstuvwx",
   1: "acdefghijklmnprstuvx",
   2: "a",
-  3: "abcdefghijklmnpqrstuvx",
+  3: "acdefghijklmnprstuvx",
   4: "_abcdefghilmnprstuvw",
-  5: "$aqr",
+  5: "$aq",
   6: "st"
 };
 

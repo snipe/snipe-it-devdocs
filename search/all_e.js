@@ -2,7 +2,6 @@ var searchData=
 [
   ['macroserviceprovider',['MacroServiceProvider',['../class_app_1_1_providers_1_1_macro_service_provider.html',1,'App::Providers']]],
   ['macroserviceprovider_2ephp',['MacroServiceProvider.php',['../_macro_service_provider_8php.html',1,'']]],
-  ['mail_2ephp',['mail.php',['../mail_8php.html',1,'']]],
   ['manager',['manager',['../class_app_1_1_models_1_1_user.html#a30901819e983c6422c38f1c6bc5098aa',1,'App::Models::User']]],
   ['managerlist',['managerList',['../class_app_1_1_helpers_1_1_helper.html#a0bb7fbb04d8dc46904ee65b47fd13cd2',1,'App::Helpers::Helper']]],
   ['manufacturer',['Manufacturer',['../class_app_1_1_models_1_1_manufacturer.html',1,'App::Models']]],

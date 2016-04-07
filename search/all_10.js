@@ -8,7 +8,6 @@ var searchData=
   ['passwordcontroller_2ephp',['PasswordController.php',['../_password_controller_8php.html',1,'']]],
   ['paveit',['PaveIt',['../class_app_1_1_console_1_1_commands_1_1_pave_it.html',1,'App::Console::Commands']]],
   ['paveit_2ephp',['PaveIt.php',['../_pave_it_8php.html',1,'']]],
-  ['permissions_2ephp',['permissions.php',['../permissions_8php.html',1,'']]],
   ['postacceptasset',['postAcceptAsset',['../class_app_1_1_http_1_1_controllers_1_1_view_assets_controller.html#a7b0aab6a38815ccf32ecfe32a527ba6a',1,'App::Http::Controllers::ViewAssetsController']]],
   ['postapiimportupload',['postAPIImportUpload',['../class_app_1_1_http_1_1_controllers_1_1_assets_controller.html#ab314bbf449e6308cb2caf1ad9a14f6ec',1,'App::Http::Controllers::AssetsController']]],
   ['postbackups',['postBackups',['../class_app_1_1_http_1_1_controllers_1_1_settings_controller.html#a1f531811b411de3112296d22e86bdcf2',1,'App::Http::Controllers::SettingsController']]],

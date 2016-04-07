@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['group_2ephp',['Group.php',['../_group_8php.html',1,'']]],
-  ['groupscontroller_2ephp',['GroupsController.php',['../_groups_controller_8php.html',1,'']]]
+  ['handler_2ephp',['Handler.php',['../_handler_8php.html',1,'']]],
+  ['helper_2ephp',['Helper.php',['../_helper_8php.html',1,'']]]
 ];
