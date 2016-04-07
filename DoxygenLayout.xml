@@ -2,7 +2,9 @@
   <!-- Navigation index tabs for HTML output -->
   <navindex>
     <tab type="mainpage" visible="yes" title="Intro"/>
-    <tab type="namespaces" visible="yes" title="Namespaces"/>
+    <tab type="namespaces" visible="yes" intro="" title="Namespaces">
+        <tab type="namespaces" visible="no" title="" intro=""/>
+    </tab>
     <tab type="classes" visible="yes" title="Classes">
         <tab type="classlist" visible="yes" title="" intro=""/>
         <tab type="classindex" visible="$ALPHABETICAL_INDEX" title=""/>
@@ -10,7 +12,9 @@
         <tab type="classmembers" visible="yes" title="" intro=""/>
     </tab>
     <tab type="modules" visible="yes" title="" intro=""/>
-    <tab type="files" visible="yes" title="Files"/>
+    <tab type="files" visible="yes" intro="" title="Files">
+        <tab type="filelist" visible="no" title="" intro=""/>
+    </tab>
     <tab type="examples" visible="yes" title="" intro=""/>
     <tab type="pages" visible="yes" title="Misc" intro=""/>
   </navindex>
